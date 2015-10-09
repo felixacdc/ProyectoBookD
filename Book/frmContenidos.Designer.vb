@@ -713,7 +713,7 @@ Partial Class frmContenidos
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.Location = New System.Drawing.Point(51, 58)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(736, 757)
+        Me.Label39.Size = New System.Drawing.Size(736, 987)
         Me.Label39.TabIndex = 2
         Me.Label39.Text = resources.GetString("Label39.Text")
         '
@@ -885,23 +885,23 @@ Partial Class frmContenidos
         'RadioButton22
         '
         Me.RadioButton22.AutoSize = True
-        Me.RadioButton22.Location = New System.Drawing.Point(278, 544)
+        Me.RadioButton22.Location = New System.Drawing.Point(308, 544)
         Me.RadioButton22.Name = "RadioButton22"
-        Me.RadioButton22.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton22.Size = New System.Drawing.Size(126, 17)
         Me.RadioButton22.TabIndex = 48
         Me.RadioButton22.TabStop = True
-        Me.RadioButton22.Text = "RadioButton3"
+        Me.RadioButton22.Text = "Microsoft Office 2016"
         Me.RadioButton22.UseVisualStyleBackColor = True
         '
         'RadioButton23
         '
         Me.RadioButton23.AutoSize = True
-        Me.RadioButton23.Location = New System.Drawing.Point(168, 544)
+        Me.RadioButton23.Location = New System.Drawing.Point(178, 544)
         Me.RadioButton23.Name = "RadioButton23"
-        Me.RadioButton23.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton23.Size = New System.Drawing.Size(126, 17)
         Me.RadioButton23.TabIndex = 47
         Me.RadioButton23.TabStop = True
-        Me.RadioButton23.Text = "RadioButton2"
+        Me.RadioButton23.Text = "Microsoft Office 2010"
         Me.RadioButton23.UseVisualStyleBackColor = True
         '
         'RadioButton24
@@ -909,10 +909,10 @@ Partial Class frmContenidos
         Me.RadioButton24.AutoSize = True
         Me.RadioButton24.Location = New System.Drawing.Point(50, 544)
         Me.RadioButton24.Name = "RadioButton24"
-        Me.RadioButton24.Size = New System.Drawing.Size(95, 17)
+        Me.RadioButton24.Size = New System.Drawing.Size(126, 17)
         Me.RadioButton24.TabIndex = 46
         Me.RadioButton24.TabStop = True
-        Me.RadioButton24.Text = "Richard Brodie"
+        Me.RadioButton24.Text = "Microsoft Office 2013"
         Me.RadioButton24.UseVisualStyleBackColor = True
         '
         'Label55
@@ -930,19 +930,19 @@ Partial Class frmContenidos
         Me.Label56.AutoSize = True
         Me.Label56.Location = New System.Drawing.Point(47, 511)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(275, 13)
+        Me.Label56.Size = New System.Drawing.Size(258, 13)
         Me.Label56.TabIndex = 44
-        Me.Label56.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
+        Me.Label56.Text = "¿Cual es la vercion mas reciente de Microsoft Office?"
         '
         'RadioButton25
         '
         Me.RadioButton25.AutoSize = True
         Me.RadioButton25.Location = New System.Drawing.Point(278, 480)
         Me.RadioButton25.Name = "RadioButton25"
-        Me.RadioButton25.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton25.Size = New System.Drawing.Size(116, 17)
         Me.RadioButton25.TabIndex = 43
         Me.RadioButton25.TabStop = True
-        Me.RadioButton25.Text = "RadioButton3"
+        Me.RadioButton25.Text = "Microsoft Office XP"
         Me.RadioButton25.UseVisualStyleBackColor = True
         '
         'RadioButton26
@@ -950,10 +950,10 @@ Partial Class frmContenidos
         Me.RadioButton26.AutoSize = True
         Me.RadioButton26.Location = New System.Drawing.Point(168, 480)
         Me.RadioButton26.Name = "RadioButton26"
-        Me.RadioButton26.Size = New System.Drawing.Size(96, 17)
+        Me.RadioButton26.Size = New System.Drawing.Size(86, 17)
         Me.RadioButton26.TabIndex = 42
         Me.RadioButton26.TabStop = True
-        Me.RadioButton26.Text = "RadioButton26"
+        Me.RadioButton26.Text = "Windows XP"
         Me.RadioButton26.UseVisualStyleBackColor = True
         '
         'RadioButton27
@@ -961,10 +961,10 @@ Partial Class frmContenidos
         Me.RadioButton27.AutoSize = True
         Me.RadioButton27.Location = New System.Drawing.Point(50, 480)
         Me.RadioButton27.Name = "RadioButton27"
-        Me.RadioButton27.Size = New System.Drawing.Size(95, 17)
+        Me.RadioButton27.Size = New System.Drawing.Size(78, 17)
         Me.RadioButton27.TabIndex = 41
         Me.RadioButton27.TabStop = True
-        Me.RadioButton27.Text = "Richard Brodie"
+        Me.RadioButton27.Text = "Windows 7"
         Me.RadioButton27.UseVisualStyleBackColor = True
         '
         'Label57
@@ -982,19 +982,19 @@ Partial Class frmContenidos
         Me.Label58.AutoSize = True
         Me.Label58.Location = New System.Drawing.Point(47, 447)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(275, 13)
+        Me.Label58.Size = New System.Drawing.Size(325, 13)
         Me.Label58.TabIndex = 39
-        Me.Label58.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
+        Me.Label58.Text = "¿La versión Word 2002 emergió en la misma época que el sistema?"
         '
         'RadioButton10
         '
         Me.RadioButton10.AutoSize = True
         Me.RadioButton10.Location = New System.Drawing.Point(278, 418)
         Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton10.Size = New System.Drawing.Size(79, 17)
         Me.RadioButton10.TabIndex = 38
         Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "RadioButton3"
+        Me.RadioButton10.Text = "WYSIWYG"
         Me.RadioButton10.UseVisualStyleBackColor = True
         '
         'RadioButton11
@@ -1031,22 +1031,23 @@ Partial Class frmContenidos
         '
         'Label48
         '
-        Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(47, 385)
+        Me.Label48.Location = New System.Drawing.Point(47, 382)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(275, 13)
+        Me.Label48.Size = New System.Drawing.Size(455, 30)
         Me.Label48.TabIndex = 34
-        Me.Label48.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
+        Me.Label48.Text = "¿Es la tecnica en la que Microsoft Wor fue el primero en impliementar y permitia " & _
+    "ver anticipadamente, en pantalla, el formato final que aparecería en el impreso " & _
+    "del documento? "
         '
         'RadioButton13
         '
         Me.RadioButton13.AutoSize = True
         Me.RadioButton13.Location = New System.Drawing.Point(278, 353)
         Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton13.Size = New System.Drawing.Size(49, 17)
         Me.RadioButton13.TabIndex = 33
         Me.RadioButton13.TabStop = True
-        Me.RadioButton13.Text = "RadioButton3"
+        Me.RadioButton13.Text = "2010"
         Me.RadioButton13.UseVisualStyleBackColor = True
         '
         'RadioButton14
@@ -1054,10 +1055,10 @@ Partial Class frmContenidos
         Me.RadioButton14.AutoSize = True
         Me.RadioButton14.Location = New System.Drawing.Point(168, 353)
         Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton14.Size = New System.Drawing.Size(49, 17)
         Me.RadioButton14.TabIndex = 32
         Me.RadioButton14.TabStop = True
-        Me.RadioButton14.Text = "RadioButton2"
+        Me.RadioButton14.Text = "2009"
         Me.RadioButton14.UseVisualStyleBackColor = True
         '
         'RadioButton15
@@ -1065,10 +1066,10 @@ Partial Class frmContenidos
         Me.RadioButton15.AutoSize = True
         Me.RadioButton15.Location = New System.Drawing.Point(50, 353)
         Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(95, 17)
+        Me.RadioButton15.Size = New System.Drawing.Size(49, 17)
         Me.RadioButton15.TabIndex = 31
         Me.RadioButton15.TabStop = True
-        Me.RadioButton15.Text = "Richard Brodie"
+        Me.RadioButton15.Text = "2005"
         Me.RadioButton15.UseVisualStyleBackColor = True
         '
         'Label49
@@ -1086,19 +1087,19 @@ Partial Class frmContenidos
         Me.Label50.AutoSize = True
         Me.Label50.Location = New System.Drawing.Point(47, 320)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(275, 13)
+        Me.Label50.Size = New System.Drawing.Size(293, 13)
         Me.Label50.TabIndex = 29
-        Me.Label50.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
+        Me.Label50.Text = "¿En que año fue lider absoluto del mercado Microsoft Word?"
         '
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.Location = New System.Drawing.Point(278, 287)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton4.Size = New System.Drawing.Size(49, 17)
         Me.RadioButton4.TabIndex = 28
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "RadioButton3"
+        Me.RadioButton4.Text = "1991"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'RadioButton5
@@ -1106,10 +1107,10 @@ Partial Class frmContenidos
         Me.RadioButton5.AutoSize = True
         Me.RadioButton5.Location = New System.Drawing.Point(168, 287)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton5.Size = New System.Drawing.Size(49, 17)
         Me.RadioButton5.TabIndex = 27
         Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "RadioButton5"
+        Me.RadioButton5.Text = "1986"
         Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'RadioButton6
@@ -1117,10 +1118,10 @@ Partial Class frmContenidos
         Me.RadioButton6.AutoSize = True
         Me.RadioButton6.Location = New System.Drawing.Point(50, 287)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(95, 17)
+        Me.RadioButton6.Size = New System.Drawing.Size(49, 17)
         Me.RadioButton6.TabIndex = 26
         Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Richard Brodie"
+        Me.RadioButton6.Text = "1989"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
         'Label43
@@ -1138,19 +1139,19 @@ Partial Class frmContenidos
         Me.Label44.AutoSize = True
         Me.Label44.Location = New System.Drawing.Point(47, 254)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(275, 13)
+        Me.Label44.Size = New System.Drawing.Size(298, 13)
         Me.Label44.TabIndex = 24
-        Me.Label44.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
+        Me.Label44.Text = "¿En que año salio la primera versión de Word para Windows?"
         '
         'RadioButton7
         '
         Me.RadioButton7.AutoSize = True
         Me.RadioButton7.Location = New System.Drawing.Point(278, 222)
         Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton7.Size = New System.Drawing.Size(57, 17)
         Me.RadioButton7.TabIndex = 23
         Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "RadioButton3"
+        Me.RadioButton7.Text = "4 años"
         Me.RadioButton7.UseVisualStyleBackColor = True
         '
         'RadioButton8
@@ -1169,10 +1170,10 @@ Partial Class frmContenidos
         Me.RadioButton9.AutoSize = True
         Me.RadioButton9.Location = New System.Drawing.Point(50, 222)
         Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(95, 17)
+        Me.RadioButton9.Size = New System.Drawing.Size(57, 17)
         Me.RadioButton9.TabIndex = 21
         Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Richard Brodie"
+        Me.RadioButton9.Text = "3 años"
         Me.RadioButton9.UseVisualStyleBackColor = True
         '
         'Label45
@@ -1199,10 +1200,10 @@ Partial Class frmContenidos
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Location = New System.Drawing.Point(278, 158)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(51, 17)
         Me.RadioButton1.TabIndex = 18
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "RadioButton3"
+        Me.RadioButton1.Text = "Word"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'RadioButton2
@@ -1221,10 +1222,10 @@ Partial Class frmContenidos
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.Location = New System.Drawing.Point(50, 158)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(95, 17)
+        Me.RadioButton3.Size = New System.Drawing.Size(70, 17)
         Me.RadioButton3.TabIndex = 16
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Richard Brodie"
+        Me.RadioButton3.Text = "MS Word"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'Label41
@@ -1251,10 +1252,10 @@ Partial Class frmContenidos
         Me.RBp13.AutoSize = True
         Me.RBp13.Location = New System.Drawing.Point(278, 93)
         Me.RBp13.Name = "RBp13"
-        Me.RBp13.Size = New System.Drawing.Size(90, 17)
+        Me.RBp13.Size = New System.Drawing.Size(72, 17)
         Me.RBp13.TabIndex = 13
         Me.RBp13.TabStop = True
-        Me.RBp13.Text = "RadioButton3"
+        Me.RBp13.Text = "Paul Allen"
         Me.RBp13.UseVisualStyleBackColor = True
         '
         'RBp12
@@ -1262,10 +1263,10 @@ Partial Class frmContenidos
         Me.RBp12.AutoSize = True
         Me.RBp12.Location = New System.Drawing.Point(168, 93)
         Me.RBp12.Name = "RBp12"
-        Me.RBp12.Size = New System.Drawing.Size(90, 17)
+        Me.RBp12.Size = New System.Drawing.Size(72, 17)
         Me.RBp12.TabIndex = 12
         Me.RBp12.TabStop = True
-        Me.RBp12.Text = "RadioButton2"
+        Me.RBp12.Text = "Bill Gates "
         Me.RBp12.UseVisualStyleBackColor = True
         '
         'RBp11
