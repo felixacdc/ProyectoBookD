@@ -1,0 +1,42 @@
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\bin\Debug\Book.exe.config
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\bin\Debug\Book.exe
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\bin\Debug\Book.pdb
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\bin\Debug\Book.xml
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\obj\Debug\Book.Resources.resources
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\obj\Debug\Book.vbproj.GenerateResource.Cache
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\obj\Debug\Book.exe
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\obj\Debug\Book.xml
+c:\users\rony gonzalez\documents\visual studio 2013\Projects\Book\Book\obj\Debug\Book.pdb
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\Book\Book\obj\Debug\Book.Splash.resources
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.exe.config
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.exe
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.xml
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.pdb
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.exe
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.pdb
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.xml
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.frmContenidos.resources
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.Splash.resources
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.Resources.resources
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.vbproj.GenerateResource.Cache
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.exe.config
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.exe
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.xml
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.pdb
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.exe
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.pdb
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\Book.xml
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.frmContenidos.resources
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.Splash.resources
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.Resources.resources
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.vbproj.GenerateResource.Cache
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\IrisSkin2.dll
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.Login.resources
+C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.vbprojResolveAssemblyReference.cache
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\bin\Debug\IrisSkin2.dll
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.vbprojResolveAssemblyReference.cache
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\obj\Debug\Book.Login.resources
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\bin\Debug\Book.exe.config
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.exe
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.xml
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.pdb
