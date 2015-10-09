@@ -44,7 +44,6 @@ C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\bin
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\bin\Debug\Book.pdb
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\bin\Debug\Book.xml
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\bin\Debug\IrisSkin2.dll
-C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.vbprojResolveAssemblyReference.cache
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.frmContenidos.resources
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.Login.resources
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.Splash.resources
