@@ -76,49 +76,49 @@ Partial Class frmContenidos
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.TBevaluacion = New System.Windows.Forms.TabPage()
-        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.RBp103 = New System.Windows.Forms.RadioButton()
+        Me.RBp102 = New System.Windows.Forms.RadioButton()
+        Me.RBp101 = New System.Windows.Forms.RadioButton()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label52 = New System.Windows.Forms.Label()
-        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton20 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton21 = New System.Windows.Forms.RadioButton()
+        Me.RBp93 = New System.Windows.Forms.RadioButton()
+        Me.RBp92 = New System.Windows.Forms.RadioButton()
+        Me.RBp91 = New System.Windows.Forms.RadioButton()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label54 = New System.Windows.Forms.Label()
-        Me.RadioButton22 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton23 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton24 = New System.Windows.Forms.RadioButton()
+        Me.RBp83 = New System.Windows.Forms.RadioButton()
+        Me.RBp82 = New System.Windows.Forms.RadioButton()
+        Me.RBp81 = New System.Windows.Forms.RadioButton()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label56 = New System.Windows.Forms.Label()
-        Me.RadioButton25 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton26 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton27 = New System.Windows.Forms.RadioButton()
+        Me.RBp73 = New System.Windows.Forms.RadioButton()
+        Me.RBp72 = New System.Windows.Forms.RadioButton()
+        Me.RBp71 = New System.Windows.Forms.RadioButton()
         Me.Label57 = New System.Windows.Forms.Label()
         Me.Label58 = New System.Windows.Forms.Label()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
+        Me.RBp63 = New System.Windows.Forms.RadioButton()
+        Me.RBp62 = New System.Windows.Forms.RadioButton()
+        Me.RBp61 = New System.Windows.Forms.RadioButton()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Label48 = New System.Windows.Forms.Label()
-        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
+        Me.RBp53 = New System.Windows.Forms.RadioButton()
+        Me.RBp52 = New System.Windows.Forms.RadioButton()
+        Me.RBp51 = New System.Windows.Forms.RadioButton()
         Me.Label49 = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.RBp43 = New System.Windows.Forms.RadioButton()
+        Me.RBp42 = New System.Windows.Forms.RadioButton()
+        Me.RBp41 = New System.Windows.Forms.RadioButton()
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.RBp33 = New System.Windows.Forms.RadioButton()
+        Me.RBp32 = New System.Windows.Forms.RadioButton()
+        Me.RBp31 = New System.Windows.Forms.RadioButton()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.RBp23 = New System.Windows.Forms.RadioButton()
+        Me.RBp22 = New System.Windows.Forms.RadioButton()
+        Me.RBp21 = New System.Windows.Forms.RadioButton()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.RBp13 = New System.Windows.Forms.RadioButton()
@@ -135,6 +135,18 @@ Partial Class frmContenidos
         Me.TBtablas = New System.Windows.Forms.TabPage()
         Me.TBgraficos = New System.Windows.Forms.TabPage()
         Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel4 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel5 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel6 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel7 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel8 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel9 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.FlowLayoutPanel10 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.BtnCalificar = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TBinicio.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -151,6 +163,16 @@ Partial Class frmContenidos
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TBhistoria.SuspendLayout()
         Me.TBevaluacion.SuspendLayout()
+        Me.FlowLayoutPanel1.SuspendLayout()
+        Me.FlowLayoutPanel2.SuspendLayout()
+        Me.FlowLayoutPanel3.SuspendLayout()
+        Me.FlowLayoutPanel4.SuspendLayout()
+        Me.FlowLayoutPanel5.SuspendLayout()
+        Me.FlowLayoutPanel6.SuspendLayout()
+        Me.FlowLayoutPanel7.SuspendLayout()
+        Me.FlowLayoutPanel8.SuspendLayout()
+        Me.FlowLayoutPanel9.SuspendLayout()
+        Me.FlowLayoutPanel10.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -713,61 +735,43 @@ Partial Class frmContenidos
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.Location = New System.Drawing.Point(51, 58)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(736, 987)
+        Me.Label39.Size = New System.Drawing.Size(736, 1213)
         Me.Label39.TabIndex = 2
         Me.Label39.Text = resources.GetString("Label39.Text")
         '
         'TBevaluacion
         '
         Me.TBevaluacion.AutoScroll = True
-        Me.TBevaluacion.Controls.Add(Me.RadioButton16)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton17)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton18)
+        Me.TBevaluacion.Controls.Add(Me.BtnCalificar)
+        Me.TBevaluacion.Controls.Add(Me.Label59)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel10)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel9)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel8)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel7)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel6)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel5)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel4)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel3)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel2)
+        Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel1)
         Me.TBevaluacion.Controls.Add(Me.Label51)
         Me.TBevaluacion.Controls.Add(Me.Label52)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton19)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton20)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton21)
         Me.TBevaluacion.Controls.Add(Me.Label53)
         Me.TBevaluacion.Controls.Add(Me.Label54)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton22)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton23)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton24)
         Me.TBevaluacion.Controls.Add(Me.Label55)
         Me.TBevaluacion.Controls.Add(Me.Label56)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton25)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton26)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton27)
         Me.TBevaluacion.Controls.Add(Me.Label57)
         Me.TBevaluacion.Controls.Add(Me.Label58)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton10)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton11)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton12)
         Me.TBevaluacion.Controls.Add(Me.Label47)
         Me.TBevaluacion.Controls.Add(Me.Label48)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton13)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton14)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton15)
         Me.TBevaluacion.Controls.Add(Me.Label49)
         Me.TBevaluacion.Controls.Add(Me.Label50)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton4)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton5)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton6)
         Me.TBevaluacion.Controls.Add(Me.Label43)
         Me.TBevaluacion.Controls.Add(Me.Label44)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton7)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton8)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton9)
         Me.TBevaluacion.Controls.Add(Me.Label45)
         Me.TBevaluacion.Controls.Add(Me.Label46)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton1)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton2)
-        Me.TBevaluacion.Controls.Add(Me.RadioButton3)
         Me.TBevaluacion.Controls.Add(Me.Label41)
         Me.TBevaluacion.Controls.Add(Me.Label42)
-        Me.TBevaluacion.Controls.Add(Me.RBp13)
-        Me.TBevaluacion.Controls.Add(Me.RBp12)
-        Me.TBevaluacion.Controls.Add(Me.RBp11)
         Me.TBevaluacion.Controls.Add(Me.Label37)
         Me.TBevaluacion.Controls.Add(Me.Label40)
         Me.TBevaluacion.Controls.Add(Me.Label36)
@@ -778,44 +782,41 @@ Partial Class frmContenidos
         Me.TBevaluacion.Text = "Evaluacion"
         Me.TBevaluacion.UseVisualStyleBackColor = True
         '
-        'RadioButton16
+        'RBp103
         '
-        Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.Location = New System.Drawing.Point(278, 675)
-        Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton16.TabIndex = 58
-        Me.RadioButton16.TabStop = True
-        Me.RadioButton16.Text = "RadioButton3"
-        Me.RadioButton16.UseVisualStyleBackColor = True
+        Me.RBp103.AutoSize = True
+        Me.RBp103.Location = New System.Drawing.Point(267, 3)
+        Me.RBp103.Name = "RBp103"
+        Me.RBp103.Size = New System.Drawing.Size(126, 17)
+        Me.RBp103.TabIndex = 58
+        Me.RBp103.Text = "Microsoft Office 2002"
+        Me.RBp103.UseVisualStyleBackColor = True
         '
-        'RadioButton17
+        'RBp102
         '
-        Me.RadioButton17.AutoSize = True
-        Me.RadioButton17.Location = New System.Drawing.Point(168, 675)
-        Me.RadioButton17.Name = "RadioButton17"
-        Me.RadioButton17.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton17.TabIndex = 57
-        Me.RadioButton17.TabStop = True
-        Me.RadioButton17.Text = "RadioButton2"
-        Me.RadioButton17.UseVisualStyleBackColor = True
+        Me.RBp102.AutoSize = True
+        Me.RBp102.Location = New System.Drawing.Point(135, 3)
+        Me.RBp102.Name = "RBp102"
+        Me.RBp102.Size = New System.Drawing.Size(126, 17)
+        Me.RBp102.TabIndex = 57
+        Me.RBp102.Text = "Microsoft Office 2000"
+        Me.RBp102.UseVisualStyleBackColor = True
         '
-        'RadioButton18
+        'RBp101
         '
-        Me.RadioButton18.AutoSize = True
-        Me.RadioButton18.Location = New System.Drawing.Point(50, 675)
-        Me.RadioButton18.Name = "RadioButton18"
-        Me.RadioButton18.Size = New System.Drawing.Size(95, 17)
-        Me.RadioButton18.TabIndex = 56
-        Me.RadioButton18.TabStop = True
-        Me.RadioButton18.Text = "Richard Brodie"
-        Me.RadioButton18.UseVisualStyleBackColor = True
+        Me.RBp101.AutoSize = True
+        Me.RBp101.Location = New System.Drawing.Point(3, 3)
+        Me.RBp101.Name = "RBp101"
+        Me.RBp101.Size = New System.Drawing.Size(126, 17)
+        Me.RBp101.TabIndex = 56
+        Me.RBp101.Text = "Microsoft Office 2003"
+        Me.RBp101.UseVisualStyleBackColor = True
         '
         'Label51
         '
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(22, 641)
+        Me.Label51.Location = New System.Drawing.Point(37, 628)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(25, 13)
         Me.Label51.TabIndex = 55
@@ -824,50 +825,47 @@ Partial Class frmContenidos
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(47, 642)
+        Me.Label52.Location = New System.Drawing.Point(62, 629)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(275, 13)
+        Me.Label52.Size = New System.Drawing.Size(386, 13)
         Me.Label52.TabIndex = 54
-        Me.Label52.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
+        Me.Label52.Text = "¿Que version de Microsoft Office fue incluida en Windows XP Profesional 2002?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'RadioButton19
+        'RBp93
         '
-        Me.RadioButton19.AutoSize = True
-        Me.RadioButton19.Location = New System.Drawing.Point(278, 609)
-        Me.RadioButton19.Name = "RadioButton19"
-        Me.RadioButton19.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton19.TabIndex = 53
-        Me.RadioButton19.TabStop = True
-        Me.RadioButton19.Text = "RadioButton3"
-        Me.RadioButton19.UseVisualStyleBackColor = True
+        Me.RBp93.AutoSize = True
+        Me.RBp93.Location = New System.Drawing.Point(119, 3)
+        Me.RBp93.Name = "RBp93"
+        Me.RBp93.Size = New System.Drawing.Size(44, 17)
+        Me.RBp93.TabIndex = 53
+        Me.RBp93.Text = "IBM"
+        Me.RBp93.UseVisualStyleBackColor = True
         '
-        'RadioButton20
+        'RBp92
         '
-        Me.RadioButton20.AutoSize = True
-        Me.RadioButton20.Location = New System.Drawing.Point(168, 609)
-        Me.RadioButton20.Name = "RadioButton20"
-        Me.RadioButton20.Size = New System.Drawing.Size(96, 17)
-        Me.RadioButton20.TabIndex = 52
-        Me.RadioButton20.TabStop = True
-        Me.RadioButton20.Text = "RadioButton20"
-        Me.RadioButton20.UseVisualStyleBackColor = True
+        Me.RBp92.AutoSize = True
+        Me.RBp92.Location = New System.Drawing.Point(61, 3)
+        Me.RBp92.Name = "RBp92"
+        Me.RBp92.Size = New System.Drawing.Size(52, 17)
+        Me.RBp92.TabIndex = 52
+        Me.RBp92.Text = "Apple"
+        Me.RBp92.UseVisualStyleBackColor = True
         '
-        'RadioButton21
+        'RBp91
         '
-        Me.RadioButton21.AutoSize = True
-        Me.RadioButton21.Location = New System.Drawing.Point(50, 609)
-        Me.RadioButton21.Name = "RadioButton21"
-        Me.RadioButton21.Size = New System.Drawing.Size(95, 17)
-        Me.RadioButton21.TabIndex = 51
-        Me.RadioButton21.TabStop = True
-        Me.RadioButton21.Text = "Richard Brodie"
-        Me.RadioButton21.UseVisualStyleBackColor = True
+        Me.RBp91.AutoSize = True
+        Me.RBp91.Location = New System.Drawing.Point(3, 3)
+        Me.RBp91.Name = "RBp91"
+        Me.RBp91.Size = New System.Drawing.Size(52, 17)
+        Me.RBp91.TabIndex = 51
+        Me.RBp91.Text = "Xerox"
+        Me.RBp91.UseVisualStyleBackColor = True
         '
         'Label53
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(22, 575)
+        Me.Label53.Location = New System.Drawing.Point(37, 566)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(18, 13)
         Me.Label53.TabIndex = 50
@@ -876,50 +874,47 @@ Partial Class frmContenidos
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(47, 576)
+        Me.Label54.Location = New System.Drawing.Point(62, 567)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(275, 13)
+        Me.Label54.Size = New System.Drawing.Size(358, 13)
         Me.Label54.TabIndex = 49
-        Me.Label54.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
+        Me.Label54.Text = "¿De que compania eran programadores Charles Simonyi y Richard Brodie?"
         '
-        'RadioButton22
+        'RBp83
         '
-        Me.RadioButton22.AutoSize = True
-        Me.RadioButton22.Location = New System.Drawing.Point(308, 544)
-        Me.RadioButton22.Name = "RadioButton22"
-        Me.RadioButton22.Size = New System.Drawing.Size(126, 17)
-        Me.RadioButton22.TabIndex = 48
-        Me.RadioButton22.TabStop = True
-        Me.RadioButton22.Text = "Microsoft Office 2016"
-        Me.RadioButton22.UseVisualStyleBackColor = True
+        Me.RBp83.AutoSize = True
+        Me.RBp83.Location = New System.Drawing.Point(267, 3)
+        Me.RBp83.Name = "RBp83"
+        Me.RBp83.Size = New System.Drawing.Size(126, 17)
+        Me.RBp83.TabIndex = 48
+        Me.RBp83.Text = "Microsoft Office 2016"
+        Me.RBp83.UseVisualStyleBackColor = True
         '
-        'RadioButton23
+        'RBp82
         '
-        Me.RadioButton23.AutoSize = True
-        Me.RadioButton23.Location = New System.Drawing.Point(178, 544)
-        Me.RadioButton23.Name = "RadioButton23"
-        Me.RadioButton23.Size = New System.Drawing.Size(126, 17)
-        Me.RadioButton23.TabIndex = 47
-        Me.RadioButton23.TabStop = True
-        Me.RadioButton23.Text = "Microsoft Office 2010"
-        Me.RadioButton23.UseVisualStyleBackColor = True
+        Me.RBp82.AutoSize = True
+        Me.RBp82.Location = New System.Drawing.Point(135, 3)
+        Me.RBp82.Name = "RBp82"
+        Me.RBp82.Size = New System.Drawing.Size(126, 17)
+        Me.RBp82.TabIndex = 47
+        Me.RBp82.Text = "Microsoft Office 2010"
+        Me.RBp82.UseVisualStyleBackColor = True
         '
-        'RadioButton24
+        'RBp81
         '
-        Me.RadioButton24.AutoSize = True
-        Me.RadioButton24.Location = New System.Drawing.Point(50, 544)
-        Me.RadioButton24.Name = "RadioButton24"
-        Me.RadioButton24.Size = New System.Drawing.Size(126, 17)
-        Me.RadioButton24.TabIndex = 46
-        Me.RadioButton24.TabStop = True
-        Me.RadioButton24.Text = "Microsoft Office 2013"
-        Me.RadioButton24.UseVisualStyleBackColor = True
+        Me.RBp81.AutoSize = True
+        Me.RBp81.Location = New System.Drawing.Point(3, 3)
+        Me.RBp81.Name = "RBp81"
+        Me.RBp81.Size = New System.Drawing.Size(126, 17)
+        Me.RBp81.TabIndex = 46
+        Me.RBp81.Text = "Microsoft Office 2013"
+        Me.RBp81.UseVisualStyleBackColor = True
         '
         'Label55
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(22, 510)
+        Me.Label55.Location = New System.Drawing.Point(37, 501)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(18, 13)
         Me.Label55.TabIndex = 45
@@ -928,50 +923,47 @@ Partial Class frmContenidos
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(47, 511)
+        Me.Label56.Location = New System.Drawing.Point(62, 502)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(258, 13)
         Me.Label56.TabIndex = 44
         Me.Label56.Text = "¿Cual es la vercion mas reciente de Microsoft Office?"
         '
-        'RadioButton25
+        'RBp73
         '
-        Me.RadioButton25.AutoSize = True
-        Me.RadioButton25.Location = New System.Drawing.Point(278, 480)
-        Me.RadioButton25.Name = "RadioButton25"
-        Me.RadioButton25.Size = New System.Drawing.Size(116, 17)
-        Me.RadioButton25.TabIndex = 43
-        Me.RadioButton25.TabStop = True
-        Me.RadioButton25.Text = "Microsoft Office XP"
-        Me.RadioButton25.UseVisualStyleBackColor = True
+        Me.RBp73.AutoSize = True
+        Me.RBp73.Location = New System.Drawing.Point(179, 3)
+        Me.RBp73.Name = "RBp73"
+        Me.RBp73.Size = New System.Drawing.Size(116, 17)
+        Me.RBp73.TabIndex = 43
+        Me.RBp73.Text = "Microsoft Office XP"
+        Me.RBp73.UseVisualStyleBackColor = True
         '
-        'RadioButton26
+        'RBp72
         '
-        Me.RadioButton26.AutoSize = True
-        Me.RadioButton26.Location = New System.Drawing.Point(168, 480)
-        Me.RadioButton26.Name = "RadioButton26"
-        Me.RadioButton26.Size = New System.Drawing.Size(86, 17)
-        Me.RadioButton26.TabIndex = 42
-        Me.RadioButton26.TabStop = True
-        Me.RadioButton26.Text = "Windows XP"
-        Me.RadioButton26.UseVisualStyleBackColor = True
+        Me.RBp72.AutoSize = True
+        Me.RBp72.Location = New System.Drawing.Point(87, 3)
+        Me.RBp72.Name = "RBp72"
+        Me.RBp72.Size = New System.Drawing.Size(86, 17)
+        Me.RBp72.TabIndex = 42
+        Me.RBp72.Text = "Windows XP"
+        Me.RBp72.UseVisualStyleBackColor = True
         '
-        'RadioButton27
+        'RBp71
         '
-        Me.RadioButton27.AutoSize = True
-        Me.RadioButton27.Location = New System.Drawing.Point(50, 480)
-        Me.RadioButton27.Name = "RadioButton27"
-        Me.RadioButton27.Size = New System.Drawing.Size(78, 17)
-        Me.RadioButton27.TabIndex = 41
-        Me.RadioButton27.TabStop = True
-        Me.RadioButton27.Text = "Windows 7"
-        Me.RadioButton27.UseVisualStyleBackColor = True
+        Me.RBp71.AutoSize = True
+        Me.RBp71.Location = New System.Drawing.Point(3, 3)
+        Me.RBp71.Name = "RBp71"
+        Me.RBp71.Size = New System.Drawing.Size(78, 17)
+        Me.RBp71.TabIndex = 41
+        Me.RBp71.Text = "Windows 7"
+        Me.RBp71.UseVisualStyleBackColor = True
         '
         'Label57
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(22, 446)
+        Me.Label57.Location = New System.Drawing.Point(37, 437)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(18, 13)
         Me.Label57.TabIndex = 40
@@ -980,50 +972,47 @@ Partial Class frmContenidos
         'Label58
         '
         Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(47, 447)
+        Me.Label58.Location = New System.Drawing.Point(62, 438)
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(325, 13)
         Me.Label58.TabIndex = 39
         Me.Label58.Text = "¿La versión Word 2002 emergió en la misma época que el sistema?"
         '
-        'RadioButton10
+        'RBp63
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(278, 418)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(79, 17)
-        Me.RadioButton10.TabIndex = 38
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "WYSIWYG"
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.RBp63.AutoSize = True
+        Me.RBp63.Location = New System.Drawing.Point(146, 3)
+        Me.RBp63.Name = "RBp63"
+        Me.RBp63.Size = New System.Drawing.Size(79, 17)
+        Me.RBp63.TabIndex = 38
+        Me.RBp63.Text = "WYSIWYG"
+        Me.RBp63.UseVisualStyleBackColor = True
         '
-        'RadioButton11
+        'RBp62
         '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(168, 418)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(96, 17)
-        Me.RadioButton11.TabIndex = 37
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "RadioButton11"
-        Me.RadioButton11.UseVisualStyleBackColor = True
+        Me.RBp62.AutoSize = True
+        Me.RBp62.Location = New System.Drawing.Point(70, 3)
+        Me.RBp62.Name = "RBp62"
+        Me.RBp62.Size = New System.Drawing.Size(70, 17)
+        Me.RBp62.TabIndex = 37
+        Me.RBp62.Text = "MS Word"
+        Me.RBp62.UseVisualStyleBackColor = True
         '
-        'RadioButton12
+        'RBp61
         '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(50, 418)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(95, 17)
-        Me.RadioButton12.TabIndex = 36
-        Me.RadioButton12.TabStop = True
-        Me.RadioButton12.Text = "Richard Brodie"
-        Me.RadioButton12.UseVisualStyleBackColor = True
+        Me.RBp61.AutoSize = True
+        Me.RBp61.Location = New System.Drawing.Point(3, 3)
+        Me.RBp61.Name = "RBp61"
+        Me.RBp61.Size = New System.Drawing.Size(61, 17)
+        Me.RBp61.TabIndex = 36
+        Me.RBp61.Text = "TCP/IP"
+        Me.RBp61.UseVisualStyleBackColor = True
         '
         'Label47
         '
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(22, 384)
+        Me.Label47.Location = New System.Drawing.Point(37, 375)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(18, 13)
         Me.Label47.TabIndex = 35
@@ -1031,7 +1020,7 @@ Partial Class frmContenidos
         '
         'Label48
         '
-        Me.Label48.Location = New System.Drawing.Point(47, 382)
+        Me.Label48.Location = New System.Drawing.Point(62, 373)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(455, 30)
         Me.Label48.TabIndex = 34
@@ -1039,44 +1028,41 @@ Partial Class frmContenidos
     "ver anticipadamente, en pantalla, el formato final que aparecería en el impreso " & _
     "del documento? "
         '
-        'RadioButton13
+        'RBp53
         '
-        Me.RadioButton13.AutoSize = True
-        Me.RadioButton13.Location = New System.Drawing.Point(278, 353)
-        Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(49, 17)
-        Me.RadioButton13.TabIndex = 33
-        Me.RadioButton13.TabStop = True
-        Me.RadioButton13.Text = "2010"
-        Me.RadioButton13.UseVisualStyleBackColor = True
+        Me.RBp53.AutoSize = True
+        Me.RBp53.Location = New System.Drawing.Point(113, 3)
+        Me.RBp53.Name = "RBp53"
+        Me.RBp53.Size = New System.Drawing.Size(49, 17)
+        Me.RBp53.TabIndex = 33
+        Me.RBp53.Text = "2010"
+        Me.RBp53.UseVisualStyleBackColor = True
         '
-        'RadioButton14
+        'RBp52
         '
-        Me.RadioButton14.AutoSize = True
-        Me.RadioButton14.Location = New System.Drawing.Point(168, 353)
-        Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(49, 17)
-        Me.RadioButton14.TabIndex = 32
-        Me.RadioButton14.TabStop = True
-        Me.RadioButton14.Text = "2009"
-        Me.RadioButton14.UseVisualStyleBackColor = True
+        Me.RBp52.AutoSize = True
+        Me.RBp52.Location = New System.Drawing.Point(58, 3)
+        Me.RBp52.Name = "RBp52"
+        Me.RBp52.Size = New System.Drawing.Size(49, 17)
+        Me.RBp52.TabIndex = 32
+        Me.RBp52.Text = "2009"
+        Me.RBp52.UseVisualStyleBackColor = True
         '
-        'RadioButton15
+        'RBp51
         '
-        Me.RadioButton15.AutoSize = True
-        Me.RadioButton15.Location = New System.Drawing.Point(50, 353)
-        Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(49, 17)
-        Me.RadioButton15.TabIndex = 31
-        Me.RadioButton15.TabStop = True
-        Me.RadioButton15.Text = "2005"
-        Me.RadioButton15.UseVisualStyleBackColor = True
+        Me.RBp51.AutoSize = True
+        Me.RBp51.Location = New System.Drawing.Point(3, 3)
+        Me.RBp51.Name = "RBp51"
+        Me.RBp51.Size = New System.Drawing.Size(49, 17)
+        Me.RBp51.TabIndex = 31
+        Me.RBp51.Text = "2005"
+        Me.RBp51.UseVisualStyleBackColor = True
         '
         'Label49
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(22, 319)
+        Me.Label49.Location = New System.Drawing.Point(37, 310)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(18, 13)
         Me.Label49.TabIndex = 30
@@ -1085,50 +1071,47 @@ Partial Class frmContenidos
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(47, 320)
+        Me.Label50.Location = New System.Drawing.Point(62, 311)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(293, 13)
         Me.Label50.TabIndex = 29
         Me.Label50.Text = "¿En que año fue lider absoluto del mercado Microsoft Word?"
         '
-        'RadioButton4
+        'RBp43
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(278, 287)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(49, 17)
-        Me.RadioButton4.TabIndex = 28
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "1991"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.RBp43.AutoSize = True
+        Me.RBp43.Location = New System.Drawing.Point(113, 3)
+        Me.RBp43.Name = "RBp43"
+        Me.RBp43.Size = New System.Drawing.Size(49, 17)
+        Me.RBp43.TabIndex = 28
+        Me.RBp43.Text = "1991"
+        Me.RBp43.UseVisualStyleBackColor = True
         '
-        'RadioButton5
+        'RBp42
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(168, 287)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(49, 17)
-        Me.RadioButton5.TabIndex = 27
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "1986"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.RBp42.AutoSize = True
+        Me.RBp42.Location = New System.Drawing.Point(58, 3)
+        Me.RBp42.Name = "RBp42"
+        Me.RBp42.Size = New System.Drawing.Size(49, 17)
+        Me.RBp42.TabIndex = 27
+        Me.RBp42.Text = "1986"
+        Me.RBp42.UseVisualStyleBackColor = True
         '
-        'RadioButton6
+        'RBp41
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(50, 287)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(49, 17)
-        Me.RadioButton6.TabIndex = 26
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "1989"
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.RBp41.AutoSize = True
+        Me.RBp41.Location = New System.Drawing.Point(3, 3)
+        Me.RBp41.Name = "RBp41"
+        Me.RBp41.Size = New System.Drawing.Size(49, 17)
+        Me.RBp41.TabIndex = 26
+        Me.RBp41.Text = "1989"
+        Me.RBp41.UseVisualStyleBackColor = True
         '
         'Label43
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(22, 253)
+        Me.Label43.Location = New System.Drawing.Point(37, 244)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(18, 13)
         Me.Label43.TabIndex = 25
@@ -1137,50 +1120,47 @@ Partial Class frmContenidos
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(47, 254)
+        Me.Label44.Location = New System.Drawing.Point(62, 245)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(298, 13)
         Me.Label44.TabIndex = 24
         Me.Label44.Text = "¿En que año salio la primera versión de Word para Windows?"
         '
-        'RadioButton7
+        'RBp33
         '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(278, 222)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(57, 17)
-        Me.RadioButton7.TabIndex = 23
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "4 años"
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.RBp33.AutoSize = True
+        Me.RBp33.Location = New System.Drawing.Point(129, 3)
+        Me.RBp33.Name = "RBp33"
+        Me.RBp33.Size = New System.Drawing.Size(57, 17)
+        Me.RBp33.TabIndex = 23
+        Me.RBp33.Text = "4 años"
+        Me.RBp33.UseVisualStyleBackColor = True
         '
-        'RadioButton8
+        'RBp32
         '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(168, 222)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(57, 17)
-        Me.RadioButton8.TabIndex = 22
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "5 años"
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.RBp32.AutoSize = True
+        Me.RBp32.Location = New System.Drawing.Point(66, 3)
+        Me.RBp32.Name = "RBp32"
+        Me.RBp32.Size = New System.Drawing.Size(57, 17)
+        Me.RBp32.TabIndex = 22
+        Me.RBp32.Text = "5 años"
+        Me.RBp32.UseVisualStyleBackColor = True
         '
-        'RadioButton9
+        'RBp31
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(50, 222)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(57, 17)
-        Me.RadioButton9.TabIndex = 21
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "3 años"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.RBp31.AutoSize = True
+        Me.RBp31.Location = New System.Drawing.Point(3, 3)
+        Me.RBp31.Name = "RBp31"
+        Me.RBp31.Size = New System.Drawing.Size(57, 17)
+        Me.RBp31.TabIndex = 21
+        Me.RBp31.Text = "3 años"
+        Me.RBp31.UseVisualStyleBackColor = True
         '
         'Label45
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(22, 188)
+        Me.Label45.Location = New System.Drawing.Point(37, 179)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(18, 13)
         Me.Label45.TabIndex = 20
@@ -1189,50 +1169,47 @@ Partial Class frmContenidos
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(47, 189)
+        Me.Label46.Location = New System.Drawing.Point(62, 180)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(245, 13)
         Me.Label46.TabIndex = 19
         Me.Label46.Text = "¿Cuanto tiempo tardo MS Word en lograr su exito?"
         '
-        'RadioButton1
+        'RBp23
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(278, 158)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(51, 17)
-        Me.RadioButton1.TabIndex = 18
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Word"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RBp23.AutoSize = True
+        Me.RBp23.Location = New System.Drawing.Point(185, 3)
+        Me.RBp23.Name = "RBp23"
+        Me.RBp23.Size = New System.Drawing.Size(51, 17)
+        Me.RBp23.TabIndex = 18
+        Me.RBp23.Text = "Word"
+        Me.RBp23.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'RBp22
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(168, 158)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(100, 17)
-        Me.RadioButton2.TabIndex = 17
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Multi-Tool Word"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RBp22.AutoSize = True
+        Me.RBp22.Location = New System.Drawing.Point(79, 3)
+        Me.RBp22.Name = "RBp22"
+        Me.RBp22.Size = New System.Drawing.Size(100, 17)
+        Me.RBp22.TabIndex = 17
+        Me.RBp22.Text = "Multi-Tool Word"
+        Me.RBp22.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'RBp21
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(50, 158)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(70, 17)
-        Me.RadioButton3.TabIndex = 16
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "MS Word"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.RBp21.AutoSize = True
+        Me.RBp21.Location = New System.Drawing.Point(3, 3)
+        Me.RBp21.Name = "RBp21"
+        Me.RBp21.Size = New System.Drawing.Size(70, 17)
+        Me.RBp21.TabIndex = 16
+        Me.RBp21.Text = "MS Word"
+        Me.RBp21.UseVisualStyleBackColor = True
         '
         'Label41
         '
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(22, 124)
+        Me.Label41.Location = New System.Drawing.Point(37, 115)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(18, 13)
         Me.Label41.TabIndex = 15
@@ -1241,7 +1218,7 @@ Partial Class frmContenidos
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(47, 125)
+        Me.Label42.Location = New System.Drawing.Point(62, 116)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(268, 13)
         Me.Label42.TabIndex = 14
@@ -1250,41 +1227,39 @@ Partial Class frmContenidos
         'RBp13
         '
         Me.RBp13.AutoSize = True
-        Me.RBp13.Location = New System.Drawing.Point(278, 93)
+        Me.RBp13.Location = New System.Drawing.Point(182, 3)
         Me.RBp13.Name = "RBp13"
         Me.RBp13.Size = New System.Drawing.Size(72, 17)
         Me.RBp13.TabIndex = 13
-        Me.RBp13.TabStop = True
         Me.RBp13.Text = "Paul Allen"
         Me.RBp13.UseVisualStyleBackColor = True
         '
         'RBp12
         '
         Me.RBp12.AutoSize = True
-        Me.RBp12.Location = New System.Drawing.Point(168, 93)
+        Me.RBp12.Location = New System.Drawing.Point(104, 3)
         Me.RBp12.Name = "RBp12"
         Me.RBp12.Size = New System.Drawing.Size(72, 17)
         Me.RBp12.TabIndex = 12
-        Me.RBp12.TabStop = True
         Me.RBp12.Text = "Bill Gates "
         Me.RBp12.UseVisualStyleBackColor = True
         '
         'RBp11
         '
         Me.RBp11.AutoSize = True
-        Me.RBp11.Location = New System.Drawing.Point(50, 93)
+        Me.RBp11.BackColor = System.Drawing.Color.Transparent
+        Me.RBp11.Location = New System.Drawing.Point(3, 3)
         Me.RBp11.Name = "RBp11"
         Me.RBp11.Size = New System.Drawing.Size(95, 17)
         Me.RBp11.TabIndex = 11
-        Me.RBp11.TabStop = True
         Me.RBp11.Text = "Richard Brodie"
-        Me.RBp11.UseVisualStyleBackColor = True
+        Me.RBp11.UseVisualStyleBackColor = False
         '
         'Label37
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(22, 59)
+        Me.Label37.Location = New System.Drawing.Point(37, 50)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(18, 13)
         Me.Label37.TabIndex = 10
@@ -1293,7 +1268,7 @@ Partial Class frmContenidos
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(47, 60)
+        Me.Label40.Location = New System.Drawing.Point(62, 51)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(275, 13)
         Me.Label40.TabIndex = 9
@@ -1303,7 +1278,7 @@ Partial Class frmContenidos
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(359, 21)
+        Me.Label36.Location = New System.Drawing.Point(359, 12)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(113, 24)
         Me.Label36.TabIndex = 0
@@ -1378,6 +1353,123 @@ Partial Class frmContenidos
         Me.SkinEngine1.SkinFile = Nothing
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.Controls.Add(Me.RBp11)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RBp12)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RBp13)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(65, 76)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(271, 25)
+        Me.FlowLayoutPanel1.TabIndex = 60
+        '
+        'FlowLayoutPanel2
+        '
+        Me.FlowLayoutPanel2.Controls.Add(Me.RBp51)
+        Me.FlowLayoutPanel2.Controls.Add(Me.RBp52)
+        Me.FlowLayoutPanel2.Controls.Add(Me.RBp53)
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(74, 337)
+        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(173, 24)
+        Me.FlowLayoutPanel2.TabIndex = 61
+        '
+        'FlowLayoutPanel3
+        '
+        Me.FlowLayoutPanel3.Controls.Add(Me.RBp21)
+        Me.FlowLayoutPanel3.Controls.Add(Me.RBp22)
+        Me.FlowLayoutPanel3.Controls.Add(Me.RBp23)
+        Me.FlowLayoutPanel3.Location = New System.Drawing.Point(68, 142)
+        Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
+        Me.FlowLayoutPanel3.Size = New System.Drawing.Size(244, 24)
+        Me.FlowLayoutPanel3.TabIndex = 62
+        '
+        'FlowLayoutPanel4
+        '
+        Me.FlowLayoutPanel4.Controls.Add(Me.RBp31)
+        Me.FlowLayoutPanel4.Controls.Add(Me.RBp32)
+        Me.FlowLayoutPanel4.Controls.Add(Me.RBp33)
+        Me.FlowLayoutPanel4.Location = New System.Drawing.Point(71, 206)
+        Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
+        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(189, 24)
+        Me.FlowLayoutPanel4.TabIndex = 62
+        '
+        'FlowLayoutPanel5
+        '
+        Me.FlowLayoutPanel5.Controls.Add(Me.RBp41)
+        Me.FlowLayoutPanel5.Controls.Add(Me.RBp42)
+        Me.FlowLayoutPanel5.Controls.Add(Me.RBp43)
+        Me.FlowLayoutPanel5.Location = New System.Drawing.Point(71, 273)
+        Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
+        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(176, 24)
+        Me.FlowLayoutPanel5.TabIndex = 62
+        '
+        'FlowLayoutPanel6
+        '
+        Me.FlowLayoutPanel6.Controls.Add(Me.RBp61)
+        Me.FlowLayoutPanel6.Controls.Add(Me.RBp62)
+        Me.FlowLayoutPanel6.Controls.Add(Me.RBp63)
+        Me.FlowLayoutPanel6.Location = New System.Drawing.Point(71, 406)
+        Me.FlowLayoutPanel6.Name = "FlowLayoutPanel6"
+        Me.FlowLayoutPanel6.Size = New System.Drawing.Size(320, 24)
+        Me.FlowLayoutPanel6.TabIndex = 63
+        '
+        'FlowLayoutPanel7
+        '
+        Me.FlowLayoutPanel7.Controls.Add(Me.RBp71)
+        Me.FlowLayoutPanel7.Controls.Add(Me.RBp72)
+        Me.FlowLayoutPanel7.Controls.Add(Me.RBp73)
+        Me.FlowLayoutPanel7.Location = New System.Drawing.Point(71, 465)
+        Me.FlowLayoutPanel7.Name = "FlowLayoutPanel7"
+        Me.FlowLayoutPanel7.Size = New System.Drawing.Size(320, 24)
+        Me.FlowLayoutPanel7.TabIndex = 62
+        '
+        'FlowLayoutPanel8
+        '
+        Me.FlowLayoutPanel8.Controls.Add(Me.RBp81)
+        Me.FlowLayoutPanel8.Controls.Add(Me.RBp82)
+        Me.FlowLayoutPanel8.Controls.Add(Me.RBp83)
+        Me.FlowLayoutPanel8.Location = New System.Drawing.Point(71, 529)
+        Me.FlowLayoutPanel8.Name = "FlowLayoutPanel8"
+        Me.FlowLayoutPanel8.Size = New System.Drawing.Size(400, 24)
+        Me.FlowLayoutPanel8.TabIndex = 62
+        '
+        'FlowLayoutPanel9
+        '
+        Me.FlowLayoutPanel9.Controls.Add(Me.RBp101)
+        Me.FlowLayoutPanel9.Controls.Add(Me.RBp102)
+        Me.FlowLayoutPanel9.Controls.Add(Me.RBp103)
+        Me.FlowLayoutPanel9.Location = New System.Drawing.Point(74, 650)
+        Me.FlowLayoutPanel9.Name = "FlowLayoutPanel9"
+        Me.FlowLayoutPanel9.Size = New System.Drawing.Size(404, 24)
+        Me.FlowLayoutPanel9.TabIndex = 64
+        '
+        'FlowLayoutPanel10
+        '
+        Me.FlowLayoutPanel10.Controls.Add(Me.RBp91)
+        Me.FlowLayoutPanel10.Controls.Add(Me.RBp92)
+        Me.FlowLayoutPanel10.Controls.Add(Me.RBp93)
+        Me.FlowLayoutPanel10.Location = New System.Drawing.Point(71, 592)
+        Me.FlowLayoutPanel10.Name = "FlowLayoutPanel10"
+        Me.FlowLayoutPanel10.Size = New System.Drawing.Size(320, 24)
+        Me.FlowLayoutPanel10.TabIndex = 62
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(272, 714)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(0, 13)
+        Me.Label59.TabIndex = 65
+        '
+        'BtnCalificar
+        '
+        Me.BtnCalificar.Location = New System.Drawing.Point(193, 687)
+        Me.BtnCalificar.Name = "BtnCalificar"
+        Me.BtnCalificar.Size = New System.Drawing.Size(75, 23)
+        Me.BtnCalificar.TabIndex = 66
+        Me.BtnCalificar.Text = "Calificar"
+        Me.BtnCalificar.UseVisualStyleBackColor = True
+        '
         'frmContenidos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1408,6 +1500,26 @@ Partial Class frmContenidos
         Me.TBhistoria.PerformLayout()
         Me.TBevaluacion.ResumeLayout(False)
         Me.TBevaluacion.PerformLayout()
+        Me.FlowLayoutPanel1.ResumeLayout(False)
+        Me.FlowLayoutPanel1.PerformLayout()
+        Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.FlowLayoutPanel2.PerformLayout()
+        Me.FlowLayoutPanel3.ResumeLayout(False)
+        Me.FlowLayoutPanel3.PerformLayout()
+        Me.FlowLayoutPanel4.ResumeLayout(False)
+        Me.FlowLayoutPanel4.PerformLayout()
+        Me.FlowLayoutPanel5.ResumeLayout(False)
+        Me.FlowLayoutPanel5.PerformLayout()
+        Me.FlowLayoutPanel6.ResumeLayout(False)
+        Me.FlowLayoutPanel6.PerformLayout()
+        Me.FlowLayoutPanel7.ResumeLayout(False)
+        Me.FlowLayoutPanel7.PerformLayout()
+        Me.FlowLayoutPanel8.ResumeLayout(False)
+        Me.FlowLayoutPanel8.PerformLayout()
+        Me.FlowLayoutPanel9.ResumeLayout(False)
+        Me.FlowLayoutPanel9.PerformLayout()
+        Me.FlowLayoutPanel10.ResumeLayout(False)
+        Me.FlowLayoutPanel10.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1472,49 +1584,49 @@ Partial Class frmContenidos
     Friend WithEvents Label34 As System.Windows.Forms.Label
     Friend WithEvents Label38 As System.Windows.Forms.Label
     Friend WithEvents Label39 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton16 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton17 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton18 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp103 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp102 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp101 As System.Windows.Forms.RadioButton
     Friend WithEvents Label51 As System.Windows.Forms.Label
     Friend WithEvents Label52 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton19 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton20 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton21 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp93 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp92 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp91 As System.Windows.Forms.RadioButton
     Friend WithEvents Label53 As System.Windows.Forms.Label
     Friend WithEvents Label54 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton22 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton23 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton24 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp83 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp82 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp81 As System.Windows.Forms.RadioButton
     Friend WithEvents Label55 As System.Windows.Forms.Label
     Friend WithEvents Label56 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton25 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton26 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton27 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp73 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp72 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp71 As System.Windows.Forms.RadioButton
     Friend WithEvents Label57 As System.Windows.Forms.Label
     Friend WithEvents Label58 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton10 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton11 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton12 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp63 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp62 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp61 As System.Windows.Forms.RadioButton
     Friend WithEvents Label47 As System.Windows.Forms.Label
     Friend WithEvents Label48 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton13 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton14 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton15 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp53 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp52 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp51 As System.Windows.Forms.RadioButton
     Friend WithEvents Label49 As System.Windows.Forms.Label
     Friend WithEvents Label50 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton5 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp43 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp42 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp41 As System.Windows.Forms.RadioButton
     Friend WithEvents Label43 As System.Windows.Forms.Label
     Friend WithEvents Label44 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton7 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton8 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton9 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp33 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp32 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp31 As System.Windows.Forms.RadioButton
     Friend WithEvents Label45 As System.Windows.Forms.Label
     Friend WithEvents Label46 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp23 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp22 As System.Windows.Forms.RadioButton
+    Friend WithEvents RBp21 As System.Windows.Forms.RadioButton
     Friend WithEvents Label41 As System.Windows.Forms.Label
     Friend WithEvents Label42 As System.Windows.Forms.Label
     Friend WithEvents RBp13 As System.Windows.Forms.RadioButton
@@ -1523,4 +1635,16 @@ Partial Class frmContenidos
     Friend WithEvents Label37 As System.Windows.Forms.Label
     Friend WithEvents Label40 As System.Windows.Forms.Label
     Friend WithEvents Label36 As System.Windows.Forms.Label
+    Friend WithEvents FlowLayoutPanel1 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel8 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel7 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel6 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel5 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel4 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel3 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel2 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents BtnCalificar As System.Windows.Forms.Button
+    Friend WithEvents Label59 As System.Windows.Forms.Label
+    Friend WithEvents FlowLayoutPanel10 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents FlowLayoutPanel9 As System.Windows.Forms.FlowLayoutPanel
 End Class
