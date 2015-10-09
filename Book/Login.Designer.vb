@@ -84,8 +84,7 @@ Partial Class Login
         'SkinEngine1
         '
         Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
-        Me.SkinEngine1.SkinFile = "C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\projectBook\Book\Ski" & _
-    "n\Steel\SteelBlack.ssk"
+        Me.SkinEngine1.SkinFile = Nothing
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
         'PictureBox2

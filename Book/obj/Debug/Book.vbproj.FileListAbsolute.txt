@@ -49,9 +49,7 @@ C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.Splash.resources
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.Resources.resources
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.vbproj.GenerateResource.Cache
-<<<<<<< HEAD
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.vbprojResolveAssemblyReference.cache
-=======
 C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\bin\Debug\Book.exe.config
 C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.xml
 C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\bin\Debug\Book.exe
@@ -66,4 +64,3 @@ C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\
 C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.vbproj.GenerateResource.Cache
 C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.exe
 C:\Users\Rony Gonzalez\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.pdb
->>>>>>> origin/master

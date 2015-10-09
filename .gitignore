@@ -51,3 +51,5 @@ Temporary Items
 *.pdb
 *.cache
 *.Cache
+
+Book/obj/Debug/Book.vbproj.FileListAbsolute.txt
