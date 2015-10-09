@@ -73,7 +73,7 @@ Partial Class frmContenidos
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.TBhistoria = New System.Windows.Forms.TabPage()
-        Me.TBcalificacion = New System.Windows.Forms.TabPage()
+        Me.TBevaluacion = New System.Windows.Forms.TabPage()
         Me.TBformas = New System.Windows.Forms.TabPage()
         Me.TBbordes = New System.Windows.Forms.TabPage()
         Me.TBmarcadores = New System.Windows.Forms.TabPage()
@@ -82,6 +82,8 @@ Partial Class frmContenidos
         Me.TBtablas = New System.Windows.Forms.TabPage()
         Me.TBgraficos = New System.Windows.Forms.TabPage()
         Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TBinicio.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -96,6 +98,7 @@ Partial Class frmContenidos
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TBhistoria.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -107,7 +110,7 @@ Partial Class frmContenidos
         Me.TabControl1.Controls.Add(Me.TBguardar)
         Me.TabControl1.Controls.Add(Me.TBwordArt)
         Me.TabControl1.Controls.Add(Me.TBhistoria)
-        Me.TabControl1.Controls.Add(Me.TBcalificacion)
+        Me.TabControl1.Controls.Add(Me.TBevaluacion)
         Me.TabControl1.Controls.Add(Me.TBformas)
         Me.TabControl1.Controls.Add(Me.TBbordes)
         Me.TabControl1.Controls.Add(Me.TBmarcadores)
@@ -633,21 +636,24 @@ Partial Class frmContenidos
         '
         'TBhistoria
         '
+        Me.TBhistoria.AutoScroll = True
+        Me.TBhistoria.Controls.Add(Me.Label38)
+        Me.TBhistoria.Controls.Add(Me.Label39)
         Me.TBhistoria.Location = New System.Drawing.Point(4, 40)
         Me.TBhistoria.Name = "TBhistoria"
         Me.TBhistoria.Size = New System.Drawing.Size(874, 486)
         Me.TBhistoria.TabIndex = 2
-        Me.TBhistoria.Text = "Historia"
+        Me.TBhistoria.Text = "Historia Microsoft Word"
         Me.TBhistoria.UseVisualStyleBackColor = True
         '
-        'TBcalificacion
+        'TBevaluacion
         '
-        Me.TBcalificacion.Location = New System.Drawing.Point(4, 40)
-        Me.TBcalificacion.Name = "TBcalificacion"
-        Me.TBcalificacion.Size = New System.Drawing.Size(874, 486)
-        Me.TBcalificacion.TabIndex = 9
-        Me.TBcalificacion.Text = "Calificacion"
-        Me.TBcalificacion.UseVisualStyleBackColor = True
+        Me.TBevaluacion.Location = New System.Drawing.Point(4, 40)
+        Me.TBevaluacion.Name = "TBevaluacion"
+        Me.TBevaluacion.Size = New System.Drawing.Size(874, 486)
+        Me.TBevaluacion.TabIndex = 9
+        Me.TBevaluacion.Text = "Evaluacion"
+        Me.TBevaluacion.UseVisualStyleBackColor = True
         '
         'TBformas
         '
@@ -715,9 +721,27 @@ Partial Class frmContenidos
         'SkinEngine1
         '
         Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
-        Me.SkinEngine1.SkinFile = "C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\projectBook\Book\Skin\S" & _
-    "ports\SportsBlue.ssk"
+        Me.SkinEngine1.SkinFile = Nothing
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(304, 20)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(222, 20)
+        Me.Label38.TabIndex = 3
+        Me.Label38.Text = "Historia de Microsoft Word"
+        '
+        'Label39
+        '
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(51, 58)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(736, 757)
+        Me.Label39.TabIndex = 2
+        Me.Label39.Text = resources.GetString("Label39.Text")
         '
         'frmContenidos
         '
@@ -745,6 +769,8 @@ Partial Class frmContenidos
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TBhistoria.ResumeLayout(False)
+        Me.TBhistoria.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -753,7 +779,7 @@ Partial Class frmContenidos
     Friend WithEvents TBguardar As System.Windows.Forms.TabPage
     Friend WithEvents TBwordArt As System.Windows.Forms.TabPage
     Friend WithEvents TBhistoria As System.Windows.Forms.TabPage
-    Friend WithEvents TBcalificacion As System.Windows.Forms.TabPage
+    Friend WithEvents TBevaluacion As System.Windows.Forms.TabPage
     Friend WithEvents TBformas As System.Windows.Forms.TabPage
     Friend WithEvents TBbordes As System.Windows.Forms.TabPage
     Friend WithEvents TBmarcadores As System.Windows.Forms.TabPage
@@ -807,4 +833,6 @@ Partial Class frmContenidos
     Friend WithEvents Label33 As System.Windows.Forms.Label
     Friend WithEvents Label35 As System.Windows.Forms.Label
     Friend WithEvents Label34 As System.Windows.Forms.Label
+    Friend WithEvents Label38 As System.Windows.Forms.Label
+    Friend WithEvents Label39 As System.Windows.Forms.Label
 End Class

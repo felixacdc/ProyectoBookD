@@ -49,3 +49,4 @@ C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.Splash.resources
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.Resources.resources
 C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.vbproj.GenerateResource.Cache
+C:\Users\PabloFelix\Documents\Visual Studio 2013\Projects\ProyectoBookD\Book\obj\Debug\Book.vbprojResolveAssemblyReference.cache
