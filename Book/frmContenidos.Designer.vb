@@ -72,8 +72,8 @@ Partial Class frmContenidos
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
-        Me.TBalineacionesTexto = New System.Windows.Forms.TabPage()
-        Me.TBmargenes = New System.Windows.Forms.TabPage()
+        Me.TBhistoria = New System.Windows.Forms.TabPage()
+        Me.TBcalificacion = New System.Windows.Forms.TabPage()
         Me.TBformas = New System.Windows.Forms.TabPage()
         Me.TBbordes = New System.Windows.Forms.TabPage()
         Me.TBmarcadores = New System.Windows.Forms.TabPage()
@@ -106,8 +106,8 @@ Partial Class frmContenidos
         Me.TabControl1.Controls.Add(Me.TBinicio)
         Me.TabControl1.Controls.Add(Me.TBguardar)
         Me.TabControl1.Controls.Add(Me.TBwordArt)
-        Me.TabControl1.Controls.Add(Me.TBalineacionesTexto)
-        Me.TabControl1.Controls.Add(Me.TBmargenes)
+        Me.TabControl1.Controls.Add(Me.TBhistoria)
+        Me.TabControl1.Controls.Add(Me.TBcalificacion)
         Me.TabControl1.Controls.Add(Me.TBformas)
         Me.TabControl1.Controls.Add(Me.TBbordes)
         Me.TabControl1.Controls.Add(Me.TBmarcadores)
@@ -631,23 +631,23 @@ Partial Class frmContenidos
         Me.Label25.TabIndex = 7
         Me.Label25.Text = "Marcar texto al que se quiere aplicar el WordArt"
         '
-        'TBalineacionesTexto
+        'TBhistoria
         '
-        Me.TBalineacionesTexto.Location = New System.Drawing.Point(4, 40)
-        Me.TBalineacionesTexto.Name = "TBalineacionesTexto"
-        Me.TBalineacionesTexto.Size = New System.Drawing.Size(874, 486)
-        Me.TBalineacionesTexto.TabIndex = 2
-        Me.TBalineacionesTexto.Text = "Alineaciones De Texto"
-        Me.TBalineacionesTexto.UseVisualStyleBackColor = True
+        Me.TBhistoria.Location = New System.Drawing.Point(4, 40)
+        Me.TBhistoria.Name = "TBhistoria"
+        Me.TBhistoria.Size = New System.Drawing.Size(874, 486)
+        Me.TBhistoria.TabIndex = 2
+        Me.TBhistoria.Text = "Historia"
+        Me.TBhistoria.UseVisualStyleBackColor = True
         '
-        'TBmargenes
+        'TBcalificacion
         '
-        Me.TBmargenes.Location = New System.Drawing.Point(4, 40)
-        Me.TBmargenes.Name = "TBmargenes"
-        Me.TBmargenes.Size = New System.Drawing.Size(874, 486)
-        Me.TBmargenes.TabIndex = 9
-        Me.TBmargenes.Text = "Margenes"
-        Me.TBmargenes.UseVisualStyleBackColor = True
+        Me.TBcalificacion.Location = New System.Drawing.Point(4, 40)
+        Me.TBcalificacion.Name = "TBcalificacion"
+        Me.TBcalificacion.Size = New System.Drawing.Size(874, 486)
+        Me.TBcalificacion.TabIndex = 9
+        Me.TBcalificacion.Text = "Calificacion"
+        Me.TBcalificacion.UseVisualStyleBackColor = True
         '
         'TBformas
         '
@@ -752,8 +752,8 @@ Partial Class frmContenidos
     Friend WithEvents TBinicio As System.Windows.Forms.TabPage
     Friend WithEvents TBguardar As System.Windows.Forms.TabPage
     Friend WithEvents TBwordArt As System.Windows.Forms.TabPage
-    Friend WithEvents TBalineacionesTexto As System.Windows.Forms.TabPage
-    Friend WithEvents TBmargenes As System.Windows.Forms.TabPage
+    Friend WithEvents TBhistoria As System.Windows.Forms.TabPage
+    Friend WithEvents TBcalificacion As System.Windows.Forms.TabPage
     Friend WithEvents TBformas As System.Windows.Forms.TabPage
     Friend WithEvents TBbordes As System.Windows.Forms.TabPage
     Friend WithEvents TBmarcadores As System.Windows.Forms.TabPage
