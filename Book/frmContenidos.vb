@@ -98,8 +98,10 @@
                 RBp41.ForeColor = Color.FromArgb(3, 110, 3)
             ElseIf RBp42.Checked = True Then
                 RBp42.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp41.ForeColor = Color.FromArgb(106, 73, 254)
             Else
                 RBp43.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp41.ForeColor = Color.FromArgb(106, 73, 254)
             End If
 
             If RBp52.Checked = True Then
@@ -107,8 +109,10 @@
                 RBp52.ForeColor = Color.FromArgb(3, 110, 3)
             ElseIf RBp51.Checked = True Then
                 RBp51.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp52.ForeColor = Color.FromArgb(106, 73, 254)
             Else
                 RBp53.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp52.ForeColor = Color.FromArgb(106, 73, 254)
             End If
 
             If RBp63.Checked = True Then
@@ -116,8 +120,10 @@
                 RBp63.ForeColor = Color.FromArgb(3, 110, 3)
             ElseIf RBp61.Checked = True Then
                 RBp61.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp63.ForeColor = Color.FromArgb(106, 73, 254)
             Else
                 RBp62.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp63.ForeColor = Color.FromArgb(106, 73, 254)
             End If
 
             If RBp73.Checked = True Then
@@ -125,8 +131,10 @@
                 RBp73.ForeColor = Color.FromArgb(3, 110, 3)
             ElseIf RBp71.Checked = True Then
                 RBp71.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp73.ForeColor = Color.FromArgb(106, 73, 254)
             Else
                 RBp72.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp73.ForeColor = Color.FromArgb(106, 73, 254)
             End If
 
             If RBp81.Checked = True Then
@@ -134,8 +142,10 @@
                 RBp81.ForeColor = Color.FromArgb(3, 110, 3)
             ElseIf RBp82.Checked = True Then
                 RBp82.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp81.ForeColor = Color.FromArgb(106, 73, 254)
             Else
                 RBp83.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp81.ForeColor = Color.FromArgb(106, 73, 254)
             End If
 
             If RBp91.Checked = True Then
@@ -143,8 +153,10 @@
                 RBp91.ForeColor = Color.FromArgb(3, 110, 3)
             ElseIf RBp92.Checked = True Then
                 RBp92.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp91.ForeColor = Color.FromArgb(106, 73, 254)
             Else
                 RBp93.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp91.ForeColor = Color.FromArgb(106, 73, 254)
             End If
 
             If RBp101.Checked = True Then
@@ -152,8 +164,10 @@
                 RBp101.ForeColor = Color.FromArgb(3, 110, 3)
             ElseIf RBp102.Checked = True Then
                 RBp102.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp101.ForeColor = Color.FromArgb(106, 73, 254)
             Else
                 RBp103.ForeColor = Color.FromArgb(202, 12, 12)
+                RBp101.ForeColor = Color.FromArgb(106, 73, 254)
             End If
 
             MsgBox("Su punteo es: " & Punteo, MsgBoxStyle.Information, "Puntuacion")
@@ -167,4 +181,20 @@
     Private Sub BtnCalificar_Click(sender As Object, e As EventArgs) Handles BtnCalificar.Click
         Validar()
     End Sub
+
+    Private Sub BtnSiguiente_Click(sender As Object, e As EventArgs) Handles BtnSiguiente.Click
+        Dim contra As String
+        Dim punteo As Double
+
+
+        contra = InputBox("Ingrese su clave de catedratico")
+
+        If contra = "master" Then
+            punteo = InputBox("Ingrese la nota del alumno")
+            MsgBox("La nota del alumno es: " & punteo & " puede pasar al siguiente ejercicio")
+        Else
+            MsgBox("Contraseña equivocada", MsgBoxStyle.Information, "Validacion")
+        End If
+    End Sub
+
 End Class

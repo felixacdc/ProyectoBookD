@@ -29,16 +29,13 @@ Partial Class frmContenidos
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TBguardar = New System.Windows.Forms.TabPage()
         Me.Label33 = New System.Windows.Forms.Label()
@@ -54,80 +51,85 @@ Partial Class frmContenidos
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.TBwordArt = New System.Windows.Forms.TabPage()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.TBhistoria = New System.Windows.Forms.TabPage()
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.TBevaluacion = New System.Windows.Forms.TabPage()
-        Me.RBp103 = New System.Windows.Forms.RadioButton()
-        Me.RBp102 = New System.Windows.Forms.RadioButton()
+        Me.BtnCalificar = New System.Windows.Forms.Button()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.FlowLayoutPanel10 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp91 = New System.Windows.Forms.RadioButton()
+        Me.RBp92 = New System.Windows.Forms.RadioButton()
+        Me.RBp93 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel9 = New System.Windows.Forms.FlowLayoutPanel()
         Me.RBp101 = New System.Windows.Forms.RadioButton()
+        Me.RBp102 = New System.Windows.Forms.RadioButton()
+        Me.RBp103 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel8 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp81 = New System.Windows.Forms.RadioButton()
+        Me.RBp82 = New System.Windows.Forms.RadioButton()
+        Me.RBp83 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel7 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp71 = New System.Windows.Forms.RadioButton()
+        Me.RBp72 = New System.Windows.Forms.RadioButton()
+        Me.RBp73 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel6 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp61 = New System.Windows.Forms.RadioButton()
+        Me.RBp62 = New System.Windows.Forms.RadioButton()
+        Me.RBp63 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel5 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp41 = New System.Windows.Forms.RadioButton()
+        Me.RBp42 = New System.Windows.Forms.RadioButton()
+        Me.RBp43 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel4 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp31 = New System.Windows.Forms.RadioButton()
+        Me.RBp32 = New System.Windows.Forms.RadioButton()
+        Me.RBp33 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp21 = New System.Windows.Forms.RadioButton()
+        Me.RBp22 = New System.Windows.Forms.RadioButton()
+        Me.RBp23 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp51 = New System.Windows.Forms.RadioButton()
+        Me.RBp52 = New System.Windows.Forms.RadioButton()
+        Me.RBp53 = New System.Windows.Forms.RadioButton()
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RBp11 = New System.Windows.Forms.RadioButton()
+        Me.RBp12 = New System.Windows.Forms.RadioButton()
+        Me.RBp13 = New System.Windows.Forms.RadioButton()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label52 = New System.Windows.Forms.Label()
-        Me.RBp93 = New System.Windows.Forms.RadioButton()
-        Me.RBp92 = New System.Windows.Forms.RadioButton()
-        Me.RBp91 = New System.Windows.Forms.RadioButton()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label54 = New System.Windows.Forms.Label()
-        Me.RBp83 = New System.Windows.Forms.RadioButton()
-        Me.RBp82 = New System.Windows.Forms.RadioButton()
-        Me.RBp81 = New System.Windows.Forms.RadioButton()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label56 = New System.Windows.Forms.Label()
-        Me.RBp73 = New System.Windows.Forms.RadioButton()
-        Me.RBp72 = New System.Windows.Forms.RadioButton()
-        Me.RBp71 = New System.Windows.Forms.RadioButton()
         Me.Label57 = New System.Windows.Forms.Label()
         Me.Label58 = New System.Windows.Forms.Label()
-        Me.RBp63 = New System.Windows.Forms.RadioButton()
-        Me.RBp62 = New System.Windows.Forms.RadioButton()
-        Me.RBp61 = New System.Windows.Forms.RadioButton()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Label48 = New System.Windows.Forms.Label()
-        Me.RBp53 = New System.Windows.Forms.RadioButton()
-        Me.RBp52 = New System.Windows.Forms.RadioButton()
-        Me.RBp51 = New System.Windows.Forms.RadioButton()
         Me.Label49 = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
-        Me.RBp43 = New System.Windows.Forms.RadioButton()
-        Me.RBp42 = New System.Windows.Forms.RadioButton()
-        Me.RBp41 = New System.Windows.Forms.RadioButton()
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
-        Me.RBp33 = New System.Windows.Forms.RadioButton()
-        Me.RBp32 = New System.Windows.Forms.RadioButton()
-        Me.RBp31 = New System.Windows.Forms.RadioButton()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
-        Me.RBp23 = New System.Windows.Forms.RadioButton()
-        Me.RBp22 = New System.Windows.Forms.RadioButton()
-        Me.RBp21 = New System.Windows.Forms.RadioButton()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
-        Me.RBp13 = New System.Windows.Forms.RadioButton()
-        Me.RBp12 = New System.Windows.Forms.RadioButton()
-        Me.RBp11 = New System.Windows.Forms.RadioButton()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
-        Me.TBformas = New System.Windows.Forms.TabPage()
+        Me.TBeWordArt = New System.Windows.Forms.TabPage()
         Me.TBbordes = New System.Windows.Forms.TabPage()
         Me.TBmarcadores = New System.Windows.Forms.TabPage()
         Me.TBhipervinculos = New System.Windows.Forms.TabPage()
@@ -135,44 +137,59 @@ Partial Class frmContenidos
         Me.TBtablas = New System.Windows.Forms.TabPage()
         Me.TBgraficos = New System.Windows.Forms.TabPage()
         Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel4 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel5 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel6 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel7 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel8 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel9 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel10 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.BtnCalificar = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.BtnSiguiente = New System.Windows.Forms.Button()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.TabControl1.SuspendLayout()
         Me.TBinicio.SuspendLayout()
+        Me.TBguardar.SuspendLayout()
+        Me.TBwordArt.SuspendLayout()
+        Me.TBhistoria.SuspendLayout()
+        Me.TBevaluacion.SuspendLayout()
+        Me.FlowLayoutPanel10.SuspendLayout()
+        Me.FlowLayoutPanel9.SuspendLayout()
+        Me.FlowLayoutPanel8.SuspendLayout()
+        Me.FlowLayoutPanel7.SuspendLayout()
+        Me.FlowLayoutPanel6.SuspendLayout()
+        Me.FlowLayoutPanel5.SuspendLayout()
+        Me.FlowLayoutPanel4.SuspendLayout()
+        Me.FlowLayoutPanel3.SuspendLayout()
+        Me.FlowLayoutPanel2.SuspendLayout()
+        Me.FlowLayoutPanel1.SuspendLayout()
+        Me.TBeWordArt.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TBguardar.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TBwordArt.SuspendLayout()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TBhistoria.SuspendLayout()
-        Me.TBevaluacion.SuspendLayout()
-        Me.FlowLayoutPanel1.SuspendLayout()
-        Me.FlowLayoutPanel2.SuspendLayout()
-        Me.FlowLayoutPanel3.SuspendLayout()
-        Me.FlowLayoutPanel4.SuspendLayout()
-        Me.FlowLayoutPanel5.SuspendLayout()
-        Me.FlowLayoutPanel6.SuspendLayout()
-        Me.FlowLayoutPanel7.SuspendLayout()
-        Me.FlowLayoutPanel8.SuspendLayout()
-        Me.FlowLayoutPanel9.SuspendLayout()
-        Me.FlowLayoutPanel10.SuspendLayout()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -185,7 +202,7 @@ Partial Class frmContenidos
         Me.TabControl1.Controls.Add(Me.TBwordArt)
         Me.TabControl1.Controls.Add(Me.TBhistoria)
         Me.TabControl1.Controls.Add(Me.TBevaluacion)
-        Me.TabControl1.Controls.Add(Me.TBformas)
+        Me.TabControl1.Controls.Add(Me.TBeWordArt)
         Me.TabControl1.Controls.Add(Me.TBbordes)
         Me.TabControl1.Controls.Add(Me.TBmarcadores)
         Me.TabControl1.Controls.Add(Me.TBhipervinculos)
@@ -263,16 +280,6 @@ Partial Class frmContenidos
         Me.Label10.TabIndex = 11
         Me.Label10.Text = "Haga clic en la opcion Microsoft Office Word 2007"
         '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.Book.My.Resources.Resources.inicio1
-        Me.PictureBox3.Location = New System.Drawing.Point(102, 391)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(219, 252)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 10
-        Me.PictureBox3.TabStop = False
-        '
         'Label7
         '
         Me.Label7.AutoSize = True
@@ -291,16 +298,6 @@ Partial Class frmContenidos
         Me.Label8.Size = New System.Drawing.Size(190, 13)
         Me.Label8.TabIndex = 8
         Me.Label8.Text = "Haga clic en la opcion Microsoft Office"
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.Book.My.Resources.Resources.menuinicio
-        Me.PictureBox2.Location = New System.Drawing.Point(126, 118)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(195, 238)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 7
-        Me.PictureBox2.TabStop = False
         '
         'Label5
         '
@@ -349,16 +346,6 @@ Partial Class frmContenidos
         Me.Label2.Size = New System.Drawing.Size(50, 13)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Paso 1:"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Book.My.Resources.Resources.inicio
-        Me.PictureBox1.Location = New System.Drawing.Point(579, 61)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(36, 36)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
         '
         'Label1
         '
@@ -520,62 +507,22 @@ Partial Class frmContenidos
         Me.Label15.TabIndex = 5
         Me.Label15.Text = "Haga clic en el botón de Microsoft Office"
         '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = Global.Book.My.Resources.Resources.Screenshot_2
-        Me.PictureBox7.Location = New System.Drawing.Point(266, 270)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(405, 301)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 19
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.Book.My.Resources.Resources.Screenshot_1
-        Me.PictureBox6.Location = New System.Drawing.Point(349, 93)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(119, 137)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 12
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = Global.Book.My.Resources.Resources.gg
-        Me.PictureBox5.Location = New System.Drawing.Point(595, 58)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(55, 23)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 11
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.Book.My.Resources.Resources.btnguardar
-        Me.PictureBox4.Location = New System.Drawing.Point(287, 58)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(26, 23)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 9
-        Me.PictureBox4.TabStop = False
-        '
         'TBwordArt
         '
         Me.TBwordArt.AutoScroll = True
         Me.TBwordArt.Controls.Add(Me.Label35)
         Me.TBwordArt.Controls.Add(Me.Label34)
-        Me.TBwordArt.Controls.Add(Me.PictureBox10)
         Me.TBwordArt.Controls.Add(Me.Label30)
         Me.TBwordArt.Controls.Add(Me.Label31)
-        Me.TBwordArt.Controls.Add(Me.PictureBox9)
         Me.TBwordArt.Controls.Add(Me.Label28)
         Me.TBwordArt.Controls.Add(Me.Label29)
         Me.TBwordArt.Controls.Add(Me.Label26)
         Me.TBwordArt.Controls.Add(Me.Label27)
-        Me.TBwordArt.Controls.Add(Me.PictureBox8)
         Me.TBwordArt.Controls.Add(Me.Label24)
         Me.TBwordArt.Controls.Add(Me.Label25)
+        Me.TBwordArt.Controls.Add(Me.PictureBox10)
+        Me.TBwordArt.Controls.Add(Me.PictureBox9)
+        Me.TBwordArt.Controls.Add(Me.PictureBox8)
         Me.TBwordArt.Location = New System.Drawing.Point(4, 40)
         Me.TBwordArt.Name = "TBwordArt"
         Me.TBwordArt.Padding = New System.Windows.Forms.Padding(3)
@@ -602,16 +549,6 @@ Partial Class frmContenidos
         Me.Label34.TabIndex = 21
         Me.Label34.Text = "Pasos para insertar un WordArt"
         '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.Book.My.Resources.Resources.Screenshot_5
-        Me.PictureBox10.Location = New System.Drawing.Point(59, 248)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(226, 246)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 20
-        Me.PictureBox10.TabStop = False
-        '
         'Label30
         '
         Me.Label30.AutoSize = True
@@ -630,16 +567,6 @@ Partial Class frmContenidos
         Me.Label31.Size = New System.Drawing.Size(215, 13)
         Me.Label31.TabIndex = 18
         Me.Label31.Text = "Haga clic en el estilo de WordArt que desee"
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.Book.My.Resources.Resources.Screenshot_4
-        Me.PictureBox9.Location = New System.Drawing.Point(242, 154)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(299, 56)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 17
-        Me.PictureBox9.TabStop = False
         '
         'Label28
         '
@@ -678,16 +605,6 @@ Partial Class frmContenidos
         Me.Label27.Size = New System.Drawing.Size(156, 13)
         Me.Label27.TabIndex = 13
         Me.Label27.Text = "Haga clic en la pestaña insertar"
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.Book.My.Resources.Resources.Screenshot_3
-        Me.PictureBox8.Location = New System.Drawing.Point(242, 82)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(299, 56)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 12
-        Me.PictureBox8.TabStop = False
         '
         'Label24
         '
@@ -742,6 +659,7 @@ Partial Class frmContenidos
         'TBevaluacion
         '
         Me.TBevaluacion.AutoScroll = True
+        Me.TBevaluacion.Controls.Add(Me.GroupBox1)
         Me.TBevaluacion.Controls.Add(Me.BtnCalificar)
         Me.TBevaluacion.Controls.Add(Me.Label59)
         Me.TBevaluacion.Controls.Add(Me.FlowLayoutPanel10)
@@ -775,6 +693,7 @@ Partial Class frmContenidos
         Me.TBevaluacion.Controls.Add(Me.Label37)
         Me.TBevaluacion.Controls.Add(Me.Label40)
         Me.TBevaluacion.Controls.Add(Me.Label36)
+        Me.TBevaluacion.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TBevaluacion.Location = New System.Drawing.Point(4, 40)
         Me.TBevaluacion.Name = "TBevaluacion"
         Me.TBevaluacion.Size = New System.Drawing.Size(874, 486)
@@ -782,41 +701,430 @@ Partial Class frmContenidos
         Me.TBevaluacion.Text = "Evaluacion"
         Me.TBevaluacion.UseVisualStyleBackColor = True
         '
-        'RBp103
+        'BtnCalificar
         '
-        Me.RBp103.AutoSize = True
-        Me.RBp103.Location = New System.Drawing.Point(267, 3)
-        Me.RBp103.Name = "RBp103"
-        Me.RBp103.Size = New System.Drawing.Size(126, 17)
-        Me.RBp103.TabIndex = 58
-        Me.RBp103.Text = "Microsoft Office 2002"
-        Me.RBp103.UseVisualStyleBackColor = True
+        Me.BtnCalificar.Location = New System.Drawing.Point(193, 911)
+        Me.BtnCalificar.Name = "BtnCalificar"
+        Me.BtnCalificar.Size = New System.Drawing.Size(75, 23)
+        Me.BtnCalificar.TabIndex = 66
+        Me.BtnCalificar.Text = "Calificar"
+        Me.BtnCalificar.UseVisualStyleBackColor = True
         '
-        'RBp102
+        'Label59
         '
-        Me.RBp102.AutoSize = True
-        Me.RBp102.Location = New System.Drawing.Point(135, 3)
-        Me.RBp102.Name = "RBp102"
-        Me.RBp102.Size = New System.Drawing.Size(126, 17)
-        Me.RBp102.TabIndex = 57
-        Me.RBp102.Text = "Microsoft Office 2000"
-        Me.RBp102.UseVisualStyleBackColor = True
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(272, 938)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(0, 15)
+        Me.Label59.TabIndex = 65
+        '
+        'FlowLayoutPanel10
+        '
+        Me.FlowLayoutPanel10.Controls.Add(Me.RBp91)
+        Me.FlowLayoutPanel10.Controls.Add(Me.RBp92)
+        Me.FlowLayoutPanel10.Controls.Add(Me.RBp93)
+        Me.FlowLayoutPanel10.Location = New System.Drawing.Point(71, 816)
+        Me.FlowLayoutPanel10.Name = "FlowLayoutPanel10"
+        Me.FlowLayoutPanel10.Size = New System.Drawing.Size(320, 24)
+        Me.FlowLayoutPanel10.TabIndex = 62
+        '
+        'RBp91
+        '
+        Me.RBp91.AutoSize = True
+        Me.RBp91.Location = New System.Drawing.Point(3, 3)
+        Me.RBp91.Name = "RBp91"
+        Me.RBp91.Size = New System.Drawing.Size(57, 19)
+        Me.RBp91.TabIndex = 51
+        Me.RBp91.Text = "Xerox"
+        Me.RBp91.UseVisualStyleBackColor = True
+        '
+        'RBp92
+        '
+        Me.RBp92.AutoSize = True
+        Me.RBp92.Location = New System.Drawing.Point(66, 3)
+        Me.RBp92.Name = "RBp92"
+        Me.RBp92.Size = New System.Drawing.Size(56, 19)
+        Me.RBp92.TabIndex = 52
+        Me.RBp92.Text = "Apple"
+        Me.RBp92.UseVisualStyleBackColor = True
+        '
+        'RBp93
+        '
+        Me.RBp93.AutoSize = True
+        Me.RBp93.Location = New System.Drawing.Point(128, 3)
+        Me.RBp93.Name = "RBp93"
+        Me.RBp93.Size = New System.Drawing.Size(47, 19)
+        Me.RBp93.TabIndex = 53
+        Me.RBp93.Text = "IBM"
+        Me.RBp93.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel9
+        '
+        Me.FlowLayoutPanel9.Controls.Add(Me.RBp101)
+        Me.FlowLayoutPanel9.Controls.Add(Me.RBp102)
+        Me.FlowLayoutPanel9.Controls.Add(Me.RBp103)
+        Me.FlowLayoutPanel9.Location = New System.Drawing.Point(74, 874)
+        Me.FlowLayoutPanel9.Name = "FlowLayoutPanel9"
+        Me.FlowLayoutPanel9.Size = New System.Drawing.Size(404, 24)
+        Me.FlowLayoutPanel9.TabIndex = 64
         '
         'RBp101
         '
         Me.RBp101.AutoSize = True
         Me.RBp101.Location = New System.Drawing.Point(3, 3)
         Me.RBp101.Name = "RBp101"
-        Me.RBp101.Size = New System.Drawing.Size(126, 17)
+        Me.RBp101.Size = New System.Drawing.Size(140, 19)
         Me.RBp101.TabIndex = 56
         Me.RBp101.Text = "Microsoft Office 2003"
         Me.RBp101.UseVisualStyleBackColor = True
+        '
+        'RBp102
+        '
+        Me.RBp102.AutoSize = True
+        Me.RBp102.Location = New System.Drawing.Point(149, 3)
+        Me.RBp102.Name = "RBp102"
+        Me.RBp102.Size = New System.Drawing.Size(140, 19)
+        Me.RBp102.TabIndex = 57
+        Me.RBp102.Text = "Microsoft Office 2000"
+        Me.RBp102.UseVisualStyleBackColor = True
+        '
+        'RBp103
+        '
+        Me.RBp103.AutoSize = True
+        Me.RBp103.Location = New System.Drawing.Point(3, 28)
+        Me.RBp103.Name = "RBp103"
+        Me.RBp103.Size = New System.Drawing.Size(140, 19)
+        Me.RBp103.TabIndex = 58
+        Me.RBp103.Text = "Microsoft Office 2002"
+        Me.RBp103.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel8
+        '
+        Me.FlowLayoutPanel8.Controls.Add(Me.RBp81)
+        Me.FlowLayoutPanel8.Controls.Add(Me.RBp82)
+        Me.FlowLayoutPanel8.Controls.Add(Me.RBp83)
+        Me.FlowLayoutPanel8.Location = New System.Drawing.Point(71, 753)
+        Me.FlowLayoutPanel8.Name = "FlowLayoutPanel8"
+        Me.FlowLayoutPanel8.Size = New System.Drawing.Size(446, 24)
+        Me.FlowLayoutPanel8.TabIndex = 62
+        '
+        'RBp81
+        '
+        Me.RBp81.AutoSize = True
+        Me.RBp81.Location = New System.Drawing.Point(3, 3)
+        Me.RBp81.Name = "RBp81"
+        Me.RBp81.Size = New System.Drawing.Size(140, 19)
+        Me.RBp81.TabIndex = 46
+        Me.RBp81.Text = "Microsoft Office 2013"
+        Me.RBp81.UseVisualStyleBackColor = True
+        '
+        'RBp82
+        '
+        Me.RBp82.AutoSize = True
+        Me.RBp82.Location = New System.Drawing.Point(149, 3)
+        Me.RBp82.Name = "RBp82"
+        Me.RBp82.Size = New System.Drawing.Size(140, 19)
+        Me.RBp82.TabIndex = 47
+        Me.RBp82.Text = "Microsoft Office 2010"
+        Me.RBp82.UseVisualStyleBackColor = True
+        '
+        'RBp83
+        '
+        Me.RBp83.AutoSize = True
+        Me.RBp83.Location = New System.Drawing.Point(295, 3)
+        Me.RBp83.Name = "RBp83"
+        Me.RBp83.Size = New System.Drawing.Size(140, 19)
+        Me.RBp83.TabIndex = 48
+        Me.RBp83.Text = "Microsoft Office 2016"
+        Me.RBp83.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel7
+        '
+        Me.FlowLayoutPanel7.Controls.Add(Me.RBp71)
+        Me.FlowLayoutPanel7.Controls.Add(Me.RBp72)
+        Me.FlowLayoutPanel7.Controls.Add(Me.RBp73)
+        Me.FlowLayoutPanel7.Location = New System.Drawing.Point(71, 689)
+        Me.FlowLayoutPanel7.Name = "FlowLayoutPanel7"
+        Me.FlowLayoutPanel7.Size = New System.Drawing.Size(335, 24)
+        Me.FlowLayoutPanel7.TabIndex = 62
+        '
+        'RBp71
+        '
+        Me.RBp71.AutoSize = True
+        Me.RBp71.Location = New System.Drawing.Point(3, 3)
+        Me.RBp71.Name = "RBp71"
+        Me.RBp71.Size = New System.Drawing.Size(85, 19)
+        Me.RBp71.TabIndex = 41
+        Me.RBp71.Text = "Windows 7"
+        Me.RBp71.UseVisualStyleBackColor = True
+        '
+        'RBp72
+        '
+        Me.RBp72.AutoSize = True
+        Me.RBp72.Location = New System.Drawing.Point(94, 3)
+        Me.RBp72.Name = "RBp72"
+        Me.RBp72.Size = New System.Drawing.Size(94, 19)
+        Me.RBp72.TabIndex = 42
+        Me.RBp72.Text = "Windows XP"
+        Me.RBp72.UseVisualStyleBackColor = True
+        '
+        'RBp73
+        '
+        Me.RBp73.AutoSize = True
+        Me.RBp73.Location = New System.Drawing.Point(194, 3)
+        Me.RBp73.Name = "RBp73"
+        Me.RBp73.Size = New System.Drawing.Size(128, 19)
+        Me.RBp73.TabIndex = 43
+        Me.RBp73.Text = "Microsoft Office XP"
+        Me.RBp73.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel6
+        '
+        Me.FlowLayoutPanel6.Controls.Add(Me.RBp61)
+        Me.FlowLayoutPanel6.Controls.Add(Me.RBp62)
+        Me.FlowLayoutPanel6.Controls.Add(Me.RBp63)
+        Me.FlowLayoutPanel6.Location = New System.Drawing.Point(71, 630)
+        Me.FlowLayoutPanel6.Name = "FlowLayoutPanel6"
+        Me.FlowLayoutPanel6.Size = New System.Drawing.Size(320, 24)
+        Me.FlowLayoutPanel6.TabIndex = 63
+        '
+        'RBp61
+        '
+        Me.RBp61.AutoSize = True
+        Me.RBp61.Location = New System.Drawing.Point(3, 3)
+        Me.RBp61.Name = "RBp61"
+        Me.RBp61.Size = New System.Drawing.Size(62, 19)
+        Me.RBp61.TabIndex = 36
+        Me.RBp61.Text = "TCP/IP"
+        Me.RBp61.UseVisualStyleBackColor = True
+        '
+        'RBp62
+        '
+        Me.RBp62.AutoSize = True
+        Me.RBp62.Location = New System.Drawing.Point(71, 3)
+        Me.RBp62.Name = "RBp62"
+        Me.RBp62.Size = New System.Drawing.Size(76, 19)
+        Me.RBp62.TabIndex = 37
+        Me.RBp62.Text = "MS Word"
+        Me.RBp62.UseVisualStyleBackColor = True
+        '
+        'RBp63
+        '
+        Me.RBp63.AutoSize = True
+        Me.RBp63.Location = New System.Drawing.Point(153, 3)
+        Me.RBp63.Name = "RBp63"
+        Me.RBp63.Size = New System.Drawing.Size(81, 19)
+        Me.RBp63.TabIndex = 38
+        Me.RBp63.Text = "WYSIWYG"
+        Me.RBp63.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel5
+        '
+        Me.FlowLayoutPanel5.Controls.Add(Me.RBp41)
+        Me.FlowLayoutPanel5.Controls.Add(Me.RBp42)
+        Me.FlowLayoutPanel5.Controls.Add(Me.RBp43)
+        Me.FlowLayoutPanel5.Location = New System.Drawing.Point(71, 497)
+        Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
+        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(201, 24)
+        Me.FlowLayoutPanel5.TabIndex = 62
+        '
+        'RBp41
+        '
+        Me.RBp41.AutoSize = True
+        Me.RBp41.Location = New System.Drawing.Point(3, 3)
+        Me.RBp41.Name = "RBp41"
+        Me.RBp41.Size = New System.Drawing.Size(53, 19)
+        Me.RBp41.TabIndex = 26
+        Me.RBp41.Text = "1989"
+        Me.RBp41.UseVisualStyleBackColor = True
+        '
+        'RBp42
+        '
+        Me.RBp42.AutoSize = True
+        Me.RBp42.Location = New System.Drawing.Point(62, 3)
+        Me.RBp42.Name = "RBp42"
+        Me.RBp42.Size = New System.Drawing.Size(53, 19)
+        Me.RBp42.TabIndex = 27
+        Me.RBp42.Text = "1986"
+        Me.RBp42.UseVisualStyleBackColor = True
+        '
+        'RBp43
+        '
+        Me.RBp43.AutoSize = True
+        Me.RBp43.Location = New System.Drawing.Point(121, 3)
+        Me.RBp43.Name = "RBp43"
+        Me.RBp43.Size = New System.Drawing.Size(53, 19)
+        Me.RBp43.TabIndex = 28
+        Me.RBp43.Text = "1991"
+        Me.RBp43.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel4
+        '
+        Me.FlowLayoutPanel4.Controls.Add(Me.RBp31)
+        Me.FlowLayoutPanel4.Controls.Add(Me.RBp32)
+        Me.FlowLayoutPanel4.Controls.Add(Me.RBp33)
+        Me.FlowLayoutPanel4.Location = New System.Drawing.Point(71, 430)
+        Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
+        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(234, 24)
+        Me.FlowLayoutPanel4.TabIndex = 62
+        '
+        'RBp31
+        '
+        Me.RBp31.AutoSize = True
+        Me.RBp31.Location = New System.Drawing.Point(3, 3)
+        Me.RBp31.Name = "RBp31"
+        Me.RBp31.Size = New System.Drawing.Size(62, 19)
+        Me.RBp31.TabIndex = 21
+        Me.RBp31.Text = "3 años"
+        Me.RBp31.UseVisualStyleBackColor = True
+        '
+        'RBp32
+        '
+        Me.RBp32.AutoSize = True
+        Me.RBp32.Location = New System.Drawing.Point(71, 3)
+        Me.RBp32.Name = "RBp32"
+        Me.RBp32.Size = New System.Drawing.Size(62, 19)
+        Me.RBp32.TabIndex = 22
+        Me.RBp32.Text = "5 años"
+        Me.RBp32.UseVisualStyleBackColor = True
+        '
+        'RBp33
+        '
+        Me.RBp33.AutoSize = True
+        Me.RBp33.Location = New System.Drawing.Point(139, 3)
+        Me.RBp33.Name = "RBp33"
+        Me.RBp33.Size = New System.Drawing.Size(62, 19)
+        Me.RBp33.TabIndex = 23
+        Me.RBp33.Text = "4 años"
+        Me.RBp33.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel3
+        '
+        Me.FlowLayoutPanel3.Controls.Add(Me.RBp21)
+        Me.FlowLayoutPanel3.Controls.Add(Me.RBp22)
+        Me.FlowLayoutPanel3.Controls.Add(Me.RBp23)
+        Me.FlowLayoutPanel3.Location = New System.Drawing.Point(68, 366)
+        Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
+        Me.FlowLayoutPanel3.Size = New System.Drawing.Size(265, 24)
+        Me.FlowLayoutPanel3.TabIndex = 62
+        '
+        'RBp21
+        '
+        Me.RBp21.AutoSize = True
+        Me.RBp21.Location = New System.Drawing.Point(3, 3)
+        Me.RBp21.Name = "RBp21"
+        Me.RBp21.Size = New System.Drawing.Size(76, 19)
+        Me.RBp21.TabIndex = 16
+        Me.RBp21.Text = "MS Word"
+        Me.RBp21.UseVisualStyleBackColor = True
+        '
+        'RBp22
+        '
+        Me.RBp22.AutoSize = True
+        Me.RBp22.Location = New System.Drawing.Point(85, 3)
+        Me.RBp22.Name = "RBp22"
+        Me.RBp22.Size = New System.Drawing.Size(112, 19)
+        Me.RBp22.TabIndex = 17
+        Me.RBp22.Text = "Multi-Tool Word"
+        Me.RBp22.UseVisualStyleBackColor = True
+        '
+        'RBp23
+        '
+        Me.RBp23.AutoSize = True
+        Me.RBp23.Location = New System.Drawing.Point(203, 3)
+        Me.RBp23.Name = "RBp23"
+        Me.RBp23.Size = New System.Drawing.Size(54, 19)
+        Me.RBp23.TabIndex = 18
+        Me.RBp23.Text = "Word"
+        Me.RBp23.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel2
+        '
+        Me.FlowLayoutPanel2.Controls.Add(Me.RBp51)
+        Me.FlowLayoutPanel2.Controls.Add(Me.RBp52)
+        Me.FlowLayoutPanel2.Controls.Add(Me.RBp53)
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(74, 561)
+        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(198, 24)
+        Me.FlowLayoutPanel2.TabIndex = 61
+        '
+        'RBp51
+        '
+        Me.RBp51.AutoSize = True
+        Me.RBp51.Location = New System.Drawing.Point(3, 3)
+        Me.RBp51.Name = "RBp51"
+        Me.RBp51.Size = New System.Drawing.Size(53, 19)
+        Me.RBp51.TabIndex = 31
+        Me.RBp51.Text = "2005"
+        Me.RBp51.UseVisualStyleBackColor = True
+        '
+        'RBp52
+        '
+        Me.RBp52.AutoSize = True
+        Me.RBp52.Location = New System.Drawing.Point(62, 3)
+        Me.RBp52.Name = "RBp52"
+        Me.RBp52.Size = New System.Drawing.Size(53, 19)
+        Me.RBp52.TabIndex = 32
+        Me.RBp52.Text = "2009"
+        Me.RBp52.UseVisualStyleBackColor = True
+        '
+        'RBp53
+        '
+        Me.RBp53.AutoSize = True
+        Me.RBp53.Location = New System.Drawing.Point(121, 3)
+        Me.RBp53.Name = "RBp53"
+        Me.RBp53.Size = New System.Drawing.Size(53, 19)
+        Me.RBp53.TabIndex = 33
+        Me.RBp53.Text = "2010"
+        Me.RBp53.UseVisualStyleBackColor = True
+        '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.Controls.Add(Me.RBp11)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RBp12)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RBp13)
+        Me.FlowLayoutPanel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(65, 300)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(290, 25)
+        Me.FlowLayoutPanel1.TabIndex = 60
+        '
+        'RBp11
+        '
+        Me.RBp11.AutoSize = True
+        Me.RBp11.BackColor = System.Drawing.Color.Transparent
+        Me.RBp11.Location = New System.Drawing.Point(3, 3)
+        Me.RBp11.Name = "RBp11"
+        Me.RBp11.Size = New System.Drawing.Size(107, 19)
+        Me.RBp11.TabIndex = 11
+        Me.RBp11.Text = "Richard Brodie"
+        Me.RBp11.UseVisualStyleBackColor = False
+        '
+        'RBp12
+        '
+        Me.RBp12.AutoSize = True
+        Me.RBp12.Location = New System.Drawing.Point(116, 3)
+        Me.RBp12.Name = "RBp12"
+        Me.RBp12.Size = New System.Drawing.Size(80, 19)
+        Me.RBp12.TabIndex = 12
+        Me.RBp12.Text = "Bill Gates "
+        Me.RBp12.UseVisualStyleBackColor = True
+        '
+        'RBp13
+        '
+        Me.RBp13.AutoSize = True
+        Me.RBp13.Location = New System.Drawing.Point(202, 3)
+        Me.RBp13.Name = "RBp13"
+        Me.RBp13.Size = New System.Drawing.Size(80, 19)
+        Me.RBp13.TabIndex = 13
+        Me.RBp13.Text = "Paul Allen"
+        Me.RBp13.UseVisualStyleBackColor = True
         '
         'Label51
         '
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(37, 628)
+        Me.Label51.Location = New System.Drawing.Point(37, 852)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(25, 13)
         Me.Label51.TabIndex = 55
@@ -825,47 +1133,17 @@ Partial Class frmContenidos
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(62, 629)
+        Me.Label52.Location = New System.Drawing.Point(62, 853)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(386, 13)
+        Me.Label52.Size = New System.Drawing.Size(441, 15)
         Me.Label52.TabIndex = 54
         Me.Label52.Text = "¿Que version de Microsoft Office fue incluida en Windows XP Profesional 2002?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'RBp93
-        '
-        Me.RBp93.AutoSize = True
-        Me.RBp93.Location = New System.Drawing.Point(119, 3)
-        Me.RBp93.Name = "RBp93"
-        Me.RBp93.Size = New System.Drawing.Size(44, 17)
-        Me.RBp93.TabIndex = 53
-        Me.RBp93.Text = "IBM"
-        Me.RBp93.UseVisualStyleBackColor = True
-        '
-        'RBp92
-        '
-        Me.RBp92.AutoSize = True
-        Me.RBp92.Location = New System.Drawing.Point(61, 3)
-        Me.RBp92.Name = "RBp92"
-        Me.RBp92.Size = New System.Drawing.Size(52, 17)
-        Me.RBp92.TabIndex = 52
-        Me.RBp92.Text = "Apple"
-        Me.RBp92.UseVisualStyleBackColor = True
-        '
-        'RBp91
-        '
-        Me.RBp91.AutoSize = True
-        Me.RBp91.Location = New System.Drawing.Point(3, 3)
-        Me.RBp91.Name = "RBp91"
-        Me.RBp91.Size = New System.Drawing.Size(52, 17)
-        Me.RBp91.TabIndex = 51
-        Me.RBp91.Text = "Xerox"
-        Me.RBp91.UseVisualStyleBackColor = True
         '
         'Label53
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(37, 566)
+        Me.Label53.Location = New System.Drawing.Point(37, 790)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(18, 13)
         Me.Label53.TabIndex = 50
@@ -874,47 +1152,17 @@ Partial Class frmContenidos
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(62, 567)
+        Me.Label54.Location = New System.Drawing.Point(62, 791)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(358, 13)
+        Me.Label54.Size = New System.Drawing.Size(420, 15)
         Me.Label54.TabIndex = 49
         Me.Label54.Text = "¿De que compania eran programadores Charles Simonyi y Richard Brodie?"
-        '
-        'RBp83
-        '
-        Me.RBp83.AutoSize = True
-        Me.RBp83.Location = New System.Drawing.Point(267, 3)
-        Me.RBp83.Name = "RBp83"
-        Me.RBp83.Size = New System.Drawing.Size(126, 17)
-        Me.RBp83.TabIndex = 48
-        Me.RBp83.Text = "Microsoft Office 2016"
-        Me.RBp83.UseVisualStyleBackColor = True
-        '
-        'RBp82
-        '
-        Me.RBp82.AutoSize = True
-        Me.RBp82.Location = New System.Drawing.Point(135, 3)
-        Me.RBp82.Name = "RBp82"
-        Me.RBp82.Size = New System.Drawing.Size(126, 17)
-        Me.RBp82.TabIndex = 47
-        Me.RBp82.Text = "Microsoft Office 2010"
-        Me.RBp82.UseVisualStyleBackColor = True
-        '
-        'RBp81
-        '
-        Me.RBp81.AutoSize = True
-        Me.RBp81.Location = New System.Drawing.Point(3, 3)
-        Me.RBp81.Name = "RBp81"
-        Me.RBp81.Size = New System.Drawing.Size(126, 17)
-        Me.RBp81.TabIndex = 46
-        Me.RBp81.Text = "Microsoft Office 2013"
-        Me.RBp81.UseVisualStyleBackColor = True
         '
         'Label55
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(37, 501)
+        Me.Label55.Location = New System.Drawing.Point(37, 725)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(18, 13)
         Me.Label55.TabIndex = 45
@@ -923,47 +1171,17 @@ Partial Class frmContenidos
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(62, 502)
+        Me.Label56.Location = New System.Drawing.Point(62, 726)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(258, 13)
+        Me.Label56.Size = New System.Drawing.Size(295, 15)
         Me.Label56.TabIndex = 44
         Me.Label56.Text = "¿Cual es la vercion mas reciente de Microsoft Office?"
-        '
-        'RBp73
-        '
-        Me.RBp73.AutoSize = True
-        Me.RBp73.Location = New System.Drawing.Point(179, 3)
-        Me.RBp73.Name = "RBp73"
-        Me.RBp73.Size = New System.Drawing.Size(116, 17)
-        Me.RBp73.TabIndex = 43
-        Me.RBp73.Text = "Microsoft Office XP"
-        Me.RBp73.UseVisualStyleBackColor = True
-        '
-        'RBp72
-        '
-        Me.RBp72.AutoSize = True
-        Me.RBp72.Location = New System.Drawing.Point(87, 3)
-        Me.RBp72.Name = "RBp72"
-        Me.RBp72.Size = New System.Drawing.Size(86, 17)
-        Me.RBp72.TabIndex = 42
-        Me.RBp72.Text = "Windows XP"
-        Me.RBp72.UseVisualStyleBackColor = True
-        '
-        'RBp71
-        '
-        Me.RBp71.AutoSize = True
-        Me.RBp71.Location = New System.Drawing.Point(3, 3)
-        Me.RBp71.Name = "RBp71"
-        Me.RBp71.Size = New System.Drawing.Size(78, 17)
-        Me.RBp71.TabIndex = 41
-        Me.RBp71.Text = "Windows 7"
-        Me.RBp71.UseVisualStyleBackColor = True
         '
         'Label57
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(37, 437)
+        Me.Label57.Location = New System.Drawing.Point(37, 661)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(18, 13)
         Me.Label57.TabIndex = 40
@@ -972,47 +1190,17 @@ Partial Class frmContenidos
         'Label58
         '
         Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(62, 438)
+        Me.Label58.Location = New System.Drawing.Point(62, 662)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(325, 13)
+        Me.Label58.Size = New System.Drawing.Size(380, 15)
         Me.Label58.TabIndex = 39
         Me.Label58.Text = "¿La versión Word 2002 emergió en la misma época que el sistema?"
-        '
-        'RBp63
-        '
-        Me.RBp63.AutoSize = True
-        Me.RBp63.Location = New System.Drawing.Point(146, 3)
-        Me.RBp63.Name = "RBp63"
-        Me.RBp63.Size = New System.Drawing.Size(79, 17)
-        Me.RBp63.TabIndex = 38
-        Me.RBp63.Text = "WYSIWYG"
-        Me.RBp63.UseVisualStyleBackColor = True
-        '
-        'RBp62
-        '
-        Me.RBp62.AutoSize = True
-        Me.RBp62.Location = New System.Drawing.Point(70, 3)
-        Me.RBp62.Name = "RBp62"
-        Me.RBp62.Size = New System.Drawing.Size(70, 17)
-        Me.RBp62.TabIndex = 37
-        Me.RBp62.Text = "MS Word"
-        Me.RBp62.UseVisualStyleBackColor = True
-        '
-        'RBp61
-        '
-        Me.RBp61.AutoSize = True
-        Me.RBp61.Location = New System.Drawing.Point(3, 3)
-        Me.RBp61.Name = "RBp61"
-        Me.RBp61.Size = New System.Drawing.Size(61, 17)
-        Me.RBp61.TabIndex = 36
-        Me.RBp61.Text = "TCP/IP"
-        Me.RBp61.UseVisualStyleBackColor = True
         '
         'Label47
         '
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(37, 375)
+        Me.Label47.Location = New System.Drawing.Point(37, 599)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(18, 13)
         Me.Label47.TabIndex = 35
@@ -1020,7 +1208,7 @@ Partial Class frmContenidos
         '
         'Label48
         '
-        Me.Label48.Location = New System.Drawing.Point(62, 373)
+        Me.Label48.Location = New System.Drawing.Point(62, 597)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(455, 30)
         Me.Label48.TabIndex = 34
@@ -1028,41 +1216,11 @@ Partial Class frmContenidos
     "ver anticipadamente, en pantalla, el formato final que aparecería en el impreso " & _
     "del documento? "
         '
-        'RBp53
-        '
-        Me.RBp53.AutoSize = True
-        Me.RBp53.Location = New System.Drawing.Point(113, 3)
-        Me.RBp53.Name = "RBp53"
-        Me.RBp53.Size = New System.Drawing.Size(49, 17)
-        Me.RBp53.TabIndex = 33
-        Me.RBp53.Text = "2010"
-        Me.RBp53.UseVisualStyleBackColor = True
-        '
-        'RBp52
-        '
-        Me.RBp52.AutoSize = True
-        Me.RBp52.Location = New System.Drawing.Point(58, 3)
-        Me.RBp52.Name = "RBp52"
-        Me.RBp52.Size = New System.Drawing.Size(49, 17)
-        Me.RBp52.TabIndex = 32
-        Me.RBp52.Text = "2009"
-        Me.RBp52.UseVisualStyleBackColor = True
-        '
-        'RBp51
-        '
-        Me.RBp51.AutoSize = True
-        Me.RBp51.Location = New System.Drawing.Point(3, 3)
-        Me.RBp51.Name = "RBp51"
-        Me.RBp51.Size = New System.Drawing.Size(49, 17)
-        Me.RBp51.TabIndex = 31
-        Me.RBp51.Text = "2005"
-        Me.RBp51.UseVisualStyleBackColor = True
-        '
         'Label49
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(37, 310)
+        Me.Label49.Location = New System.Drawing.Point(37, 534)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(18, 13)
         Me.Label49.TabIndex = 30
@@ -1071,47 +1229,17 @@ Partial Class frmContenidos
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(62, 311)
+        Me.Label50.Location = New System.Drawing.Point(62, 535)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(293, 13)
+        Me.Label50.Size = New System.Drawing.Size(338, 15)
         Me.Label50.TabIndex = 29
         Me.Label50.Text = "¿En que año fue lider absoluto del mercado Microsoft Word?"
-        '
-        'RBp43
-        '
-        Me.RBp43.AutoSize = True
-        Me.RBp43.Location = New System.Drawing.Point(113, 3)
-        Me.RBp43.Name = "RBp43"
-        Me.RBp43.Size = New System.Drawing.Size(49, 17)
-        Me.RBp43.TabIndex = 28
-        Me.RBp43.Text = "1991"
-        Me.RBp43.UseVisualStyleBackColor = True
-        '
-        'RBp42
-        '
-        Me.RBp42.AutoSize = True
-        Me.RBp42.Location = New System.Drawing.Point(58, 3)
-        Me.RBp42.Name = "RBp42"
-        Me.RBp42.Size = New System.Drawing.Size(49, 17)
-        Me.RBp42.TabIndex = 27
-        Me.RBp42.Text = "1986"
-        Me.RBp42.UseVisualStyleBackColor = True
-        '
-        'RBp41
-        '
-        Me.RBp41.AutoSize = True
-        Me.RBp41.Location = New System.Drawing.Point(3, 3)
-        Me.RBp41.Name = "RBp41"
-        Me.RBp41.Size = New System.Drawing.Size(49, 17)
-        Me.RBp41.TabIndex = 26
-        Me.RBp41.Text = "1989"
-        Me.RBp41.UseVisualStyleBackColor = True
         '
         'Label43
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(37, 244)
+        Me.Label43.Location = New System.Drawing.Point(37, 468)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(18, 13)
         Me.Label43.TabIndex = 25
@@ -1120,47 +1248,17 @@ Partial Class frmContenidos
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(62, 245)
+        Me.Label44.Location = New System.Drawing.Point(62, 469)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(298, 13)
+        Me.Label44.Size = New System.Drawing.Size(344, 15)
         Me.Label44.TabIndex = 24
         Me.Label44.Text = "¿En que año salio la primera versión de Word para Windows?"
-        '
-        'RBp33
-        '
-        Me.RBp33.AutoSize = True
-        Me.RBp33.Location = New System.Drawing.Point(129, 3)
-        Me.RBp33.Name = "RBp33"
-        Me.RBp33.Size = New System.Drawing.Size(57, 17)
-        Me.RBp33.TabIndex = 23
-        Me.RBp33.Text = "4 años"
-        Me.RBp33.UseVisualStyleBackColor = True
-        '
-        'RBp32
-        '
-        Me.RBp32.AutoSize = True
-        Me.RBp32.Location = New System.Drawing.Point(66, 3)
-        Me.RBp32.Name = "RBp32"
-        Me.RBp32.Size = New System.Drawing.Size(57, 17)
-        Me.RBp32.TabIndex = 22
-        Me.RBp32.Text = "5 años"
-        Me.RBp32.UseVisualStyleBackColor = True
-        '
-        'RBp31
-        '
-        Me.RBp31.AutoSize = True
-        Me.RBp31.Location = New System.Drawing.Point(3, 3)
-        Me.RBp31.Name = "RBp31"
-        Me.RBp31.Size = New System.Drawing.Size(57, 17)
-        Me.RBp31.TabIndex = 21
-        Me.RBp31.Text = "3 años"
-        Me.RBp31.UseVisualStyleBackColor = True
         '
         'Label45
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(37, 179)
+        Me.Label45.Location = New System.Drawing.Point(37, 403)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(18, 13)
         Me.Label45.TabIndex = 20
@@ -1169,47 +1267,17 @@ Partial Class frmContenidos
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(62, 180)
+        Me.Label46.Location = New System.Drawing.Point(62, 404)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(245, 13)
+        Me.Label46.Size = New System.Drawing.Size(283, 15)
         Me.Label46.TabIndex = 19
         Me.Label46.Text = "¿Cuanto tiempo tardo MS Word en lograr su exito?"
-        '
-        'RBp23
-        '
-        Me.RBp23.AutoSize = True
-        Me.RBp23.Location = New System.Drawing.Point(185, 3)
-        Me.RBp23.Name = "RBp23"
-        Me.RBp23.Size = New System.Drawing.Size(51, 17)
-        Me.RBp23.TabIndex = 18
-        Me.RBp23.Text = "Word"
-        Me.RBp23.UseVisualStyleBackColor = True
-        '
-        'RBp22
-        '
-        Me.RBp22.AutoSize = True
-        Me.RBp22.Location = New System.Drawing.Point(79, 3)
-        Me.RBp22.Name = "RBp22"
-        Me.RBp22.Size = New System.Drawing.Size(100, 17)
-        Me.RBp22.TabIndex = 17
-        Me.RBp22.Text = "Multi-Tool Word"
-        Me.RBp22.UseVisualStyleBackColor = True
-        '
-        'RBp21
-        '
-        Me.RBp21.AutoSize = True
-        Me.RBp21.Location = New System.Drawing.Point(3, 3)
-        Me.RBp21.Name = "RBp21"
-        Me.RBp21.Size = New System.Drawing.Size(70, 17)
-        Me.RBp21.TabIndex = 16
-        Me.RBp21.Text = "MS Word"
-        Me.RBp21.UseVisualStyleBackColor = True
         '
         'Label41
         '
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(37, 115)
+        Me.Label41.Location = New System.Drawing.Point(37, 339)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(18, 13)
         Me.Label41.TabIndex = 15
@@ -1218,48 +1286,17 @@ Partial Class frmContenidos
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(62, 116)
+        Me.Label42.Location = New System.Drawing.Point(62, 340)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(268, 13)
+        Me.Label42.Size = New System.Drawing.Size(313, 15)
         Me.Label42.TabIndex = 14
         Me.Label42.Text = "¿Cual fue el primer nombre que recibio Microsoft Word?"
-        '
-        'RBp13
-        '
-        Me.RBp13.AutoSize = True
-        Me.RBp13.Location = New System.Drawing.Point(182, 3)
-        Me.RBp13.Name = "RBp13"
-        Me.RBp13.Size = New System.Drawing.Size(72, 17)
-        Me.RBp13.TabIndex = 13
-        Me.RBp13.Text = "Paul Allen"
-        Me.RBp13.UseVisualStyleBackColor = True
-        '
-        'RBp12
-        '
-        Me.RBp12.AutoSize = True
-        Me.RBp12.Location = New System.Drawing.Point(104, 3)
-        Me.RBp12.Name = "RBp12"
-        Me.RBp12.Size = New System.Drawing.Size(72, 17)
-        Me.RBp12.TabIndex = 12
-        Me.RBp12.Text = "Bill Gates "
-        Me.RBp12.UseVisualStyleBackColor = True
-        '
-        'RBp11
-        '
-        Me.RBp11.AutoSize = True
-        Me.RBp11.BackColor = System.Drawing.Color.Transparent
-        Me.RBp11.Location = New System.Drawing.Point(3, 3)
-        Me.RBp11.Name = "RBp11"
-        Me.RBp11.Size = New System.Drawing.Size(95, 17)
-        Me.RBp11.TabIndex = 11
-        Me.RBp11.Text = "Richard Brodie"
-        Me.RBp11.UseVisualStyleBackColor = False
         '
         'Label37
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(37, 50)
+        Me.Label37.Location = New System.Drawing.Point(37, 274)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(18, 13)
         Me.Label37.TabIndex = 10
@@ -1268,9 +1305,10 @@ Partial Class frmContenidos
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(62, 51)
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(62, 275)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(275, 13)
+        Me.Label40.Size = New System.Drawing.Size(321, 15)
         Me.Label40.TabIndex = 9
         Me.Label40.Text = "¿Por quien fue desarrollado inicialmente Microsoft Word?"
         '
@@ -1278,20 +1316,27 @@ Partial Class frmContenidos
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(359, 12)
+        Me.Label36.Location = New System.Drawing.Point(359, 236)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(113, 24)
         Me.Label36.TabIndex = 0
         Me.Label36.Text = "Evaluacion"
         '
-        'TBformas
+        'TBeWordArt
         '
-        Me.TBformas.Location = New System.Drawing.Point(4, 40)
-        Me.TBformas.Name = "TBformas"
-        Me.TBformas.Size = New System.Drawing.Size(874, 486)
-        Me.TBformas.TabIndex = 3
-        Me.TBformas.Text = "Formas"
-        Me.TBformas.UseVisualStyleBackColor = True
+        Me.TBeWordArt.Controls.Add(Me.PictureBox11)
+        Me.TBeWordArt.Controls.Add(Me.BtnSiguiente)
+        Me.TBeWordArt.Controls.Add(Me.Label69)
+        Me.TBeWordArt.Controls.Add(Me.Label70)
+        Me.TBeWordArt.Controls.Add(Me.Label66)
+        Me.TBeWordArt.Controls.Add(Me.Label67)
+        Me.TBeWordArt.Controls.Add(Me.Label68)
+        Me.TBeWordArt.Location = New System.Drawing.Point(4, 40)
+        Me.TBeWordArt.Name = "TBeWordArt"
+        Me.TBeWordArt.Size = New System.Drawing.Size(874, 486)
+        Me.TBeWordArt.TabIndex = 3
+        Me.TBeWordArt.Text = "Ejercicio WordArt"
+        Me.TBeWordArt.UseVisualStyleBackColor = True
         '
         'TBbordes
         '
@@ -1353,122 +1398,239 @@ Partial Class frmContenidos
         Me.SkinEngine1.SkinFile = Nothing
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
-        'FlowLayoutPanel1
+        'GroupBox1
         '
-        Me.FlowLayoutPanel1.Controls.Add(Me.RBp11)
-        Me.FlowLayoutPanel1.Controls.Add(Me.RBp12)
-        Me.FlowLayoutPanel1.Controls.Add(Me.RBp13)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(65, 76)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(271, 25)
-        Me.FlowLayoutPanel1.TabIndex = 60
+        Me.GroupBox1.Controls.Add(Me.Label65)
+        Me.GroupBox1.Controls.Add(Me.Label64)
+        Me.GroupBox1.Controls.Add(Me.Label63)
+        Me.GroupBox1.Controls.Add(Me.Label62)
+        Me.GroupBox1.Controls.Add(Me.Label61)
+        Me.GroupBox1.Controls.Add(Me.Label60)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(604, 275)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(149, 95)
+        Me.GroupBox1.TabIndex = 67
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Guia Resultados"
         '
-        'FlowLayoutPanel2
+        'Label60
         '
-        Me.FlowLayoutPanel2.Controls.Add(Me.RBp51)
-        Me.FlowLayoutPanel2.Controls.Add(Me.RBp52)
-        Me.FlowLayoutPanel2.Controls.Add(Me.RBp53)
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(74, 337)
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(173, 24)
-        Me.FlowLayoutPanel2.TabIndex = 61
+        Me.Label60.AutoSize = True
+        Me.Label60.Location = New System.Drawing.Point(12, 25)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(68, 15)
+        Me.Label60.TabIndex = 0
+        Me.Label60.Text = "Correctas"
         '
-        'FlowLayoutPanel3
+        'Label61
         '
-        Me.FlowLayoutPanel3.Controls.Add(Me.RBp21)
-        Me.FlowLayoutPanel3.Controls.Add(Me.RBp22)
-        Me.FlowLayoutPanel3.Controls.Add(Me.RBp23)
-        Me.FlowLayoutPanel3.Location = New System.Drawing.Point(68, 142)
-        Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
-        Me.FlowLayoutPanel3.Size = New System.Drawing.Size(244, 24)
-        Me.FlowLayoutPanel3.TabIndex = 62
+        Me.Label61.AutoSize = True
+        Me.Label61.Location = New System.Drawing.Point(12, 45)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(78, 15)
+        Me.Label61.TabIndex = 1
+        Me.Label61.Text = "Incorrectas"
         '
-        'FlowLayoutPanel4
+        'Label62
         '
-        Me.FlowLayoutPanel4.Controls.Add(Me.RBp31)
-        Me.FlowLayoutPanel4.Controls.Add(Me.RBp32)
-        Me.FlowLayoutPanel4.Controls.Add(Me.RBp33)
-        Me.FlowLayoutPanel4.Location = New System.Drawing.Point(71, 206)
-        Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
-        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(189, 24)
-        Me.FlowLayoutPanel4.TabIndex = 62
+        Me.Label62.AutoSize = True
+        Me.Label62.Location = New System.Drawing.Point(12, 66)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(91, 15)
+        Me.Label62.TabIndex = 2
+        Me.Label62.Text = "Correcciones"
         '
-        'FlowLayoutPanel5
+        'Label63
         '
-        Me.FlowLayoutPanel5.Controls.Add(Me.RBp41)
-        Me.FlowLayoutPanel5.Controls.Add(Me.RBp42)
-        Me.FlowLayoutPanel5.Controls.Add(Me.RBp43)
-        Me.FlowLayoutPanel5.Location = New System.Drawing.Point(71, 273)
-        Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
-        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(176, 24)
-        Me.FlowLayoutPanel5.TabIndex = 62
+        Me.Label63.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.Label63.Location = New System.Drawing.Point(107, 26)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(23, 13)
+        Me.Label63.TabIndex = 3
         '
-        'FlowLayoutPanel6
+        'Label64
         '
-        Me.FlowLayoutPanel6.Controls.Add(Me.RBp61)
-        Me.FlowLayoutPanel6.Controls.Add(Me.RBp62)
-        Me.FlowLayoutPanel6.Controls.Add(Me.RBp63)
-        Me.FlowLayoutPanel6.Location = New System.Drawing.Point(71, 406)
-        Me.FlowLayoutPanel6.Name = "FlowLayoutPanel6"
-        Me.FlowLayoutPanel6.Size = New System.Drawing.Size(320, 24)
-        Me.FlowLayoutPanel6.TabIndex = 63
+        Me.Label64.BackColor = System.Drawing.Color.FromArgb(CType(CType(202, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(12, Byte), Integer))
+        Me.Label64.Location = New System.Drawing.Point(107, 46)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(23, 13)
+        Me.Label64.TabIndex = 4
         '
-        'FlowLayoutPanel7
+        'Label65
         '
-        Me.FlowLayoutPanel7.Controls.Add(Me.RBp71)
-        Me.FlowLayoutPanel7.Controls.Add(Me.RBp72)
-        Me.FlowLayoutPanel7.Controls.Add(Me.RBp73)
-        Me.FlowLayoutPanel7.Location = New System.Drawing.Point(71, 465)
-        Me.FlowLayoutPanel7.Name = "FlowLayoutPanel7"
-        Me.FlowLayoutPanel7.Size = New System.Drawing.Size(320, 24)
-        Me.FlowLayoutPanel7.TabIndex = 62
+        Me.Label65.BackColor = System.Drawing.Color.FromArgb(CType(CType(106, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(254, Byte), Integer))
+        Me.Label65.Location = New System.Drawing.Point(107, 67)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(23, 13)
+        Me.Label65.TabIndex = 5
         '
-        'FlowLayoutPanel8
+        'Label66
         '
-        Me.FlowLayoutPanel8.Controls.Add(Me.RBp81)
-        Me.FlowLayoutPanel8.Controls.Add(Me.RBp82)
-        Me.FlowLayoutPanel8.Controls.Add(Me.RBp83)
-        Me.FlowLayoutPanel8.Location = New System.Drawing.Point(71, 529)
-        Me.FlowLayoutPanel8.Name = "FlowLayoutPanel8"
-        Me.FlowLayoutPanel8.Size = New System.Drawing.Size(400, 24)
-        Me.FlowLayoutPanel8.TabIndex = 62
+        Me.Label66.AutoSize = True
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Location = New System.Drawing.Point(354, 18)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(174, 24)
+        Me.Label66.TabIndex = 24
+        Me.Label66.Text = "Ejercicio WordArt"
         '
-        'FlowLayoutPanel9
+        'Label67
         '
-        Me.FlowLayoutPanel9.Controls.Add(Me.RBp101)
-        Me.FlowLayoutPanel9.Controls.Add(Me.RBp102)
-        Me.FlowLayoutPanel9.Controls.Add(Me.RBp103)
-        Me.FlowLayoutPanel9.Location = New System.Drawing.Point(74, 650)
-        Me.FlowLayoutPanel9.Name = "FlowLayoutPanel9"
-        Me.FlowLayoutPanel9.Size = New System.Drawing.Size(404, 24)
-        Me.FlowLayoutPanel9.TabIndex = 64
+        Me.Label67.AutoSize = True
+        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Location = New System.Drawing.Point(67, 168)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(50, 13)
+        Me.Label67.TabIndex = 23
+        Me.Label67.Text = "Paso 1:"
         '
-        'FlowLayoutPanel10
+        'Label68
         '
-        Me.FlowLayoutPanel10.Controls.Add(Me.RBp91)
-        Me.FlowLayoutPanel10.Controls.Add(Me.RBp92)
-        Me.FlowLayoutPanel10.Controls.Add(Me.RBp93)
-        Me.FlowLayoutPanel10.Location = New System.Drawing.Point(71, 592)
-        Me.FlowLayoutPanel10.Name = "FlowLayoutPanel10"
-        Me.FlowLayoutPanel10.Size = New System.Drawing.Size(320, 24)
-        Me.FlowLayoutPanel10.TabIndex = 62
+        Me.Label68.AutoSize = True
+        Me.Label68.Location = New System.Drawing.Point(117, 169)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(303, 13)
+        Me.Label68.TabIndex = 22
+        Me.Label68.Text = "Crear 10 WordArt, haciendo uso de la herramienta de WordArt."
         '
-        'Label59
+        'Label69
         '
-        Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(272, 714)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(0, 13)
-        Me.Label59.TabIndex = 65
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(67, 199)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(50, 13)
+        Me.Label69.TabIndex = 26
+        Me.Label69.Text = "Paso 2:"
         '
-        'BtnCalificar
+        'Label70
         '
-        Me.BtnCalificar.Location = New System.Drawing.Point(193, 687)
-        Me.BtnCalificar.Name = "BtnCalificar"
-        Me.BtnCalificar.Size = New System.Drawing.Size(75, 23)
-        Me.BtnCalificar.TabIndex = 66
-        Me.BtnCalificar.Text = "Calificar"
-        Me.BtnCalificar.UseVisualStyleBackColor = True
+        Me.Label70.AutoSize = True
+        Me.Label70.Location = New System.Drawing.Point(117, 200)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(108, 13)
+        Me.Label70.TabIndex = 25
+        Me.Label70.Text = "Las Frases son libres."
+        '
+        'BtnSiguiente
+        '
+        Me.BtnSiguiente.Location = New System.Drawing.Point(403, 232)
+        Me.BtnSiguiente.Name = "BtnSiguiente"
+        Me.BtnSiguiente.Size = New System.Drawing.Size(75, 23)
+        Me.BtnSiguiente.TabIndex = 27
+        Me.BtnSiguiente.Text = "Siguiente"
+        Me.BtnSiguiente.UseVisualStyleBackColor = True
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.Book.My.Resources.Resources.inicio1
+        Me.PictureBox3.Location = New System.Drawing.Point(102, 391)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(219, 252)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 10
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Book.My.Resources.Resources.menuinicio
+        Me.PictureBox2.Location = New System.Drawing.Point(126, 118)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(195, 238)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 7
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Book.My.Resources.Resources.inicio
+        Me.PictureBox1.Location = New System.Drawing.Point(579, 61)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(36, 36)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.Book.My.Resources.Resources.Screenshot_2
+        Me.PictureBox7.Location = New System.Drawing.Point(266, 270)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(405, 301)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 19
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.Book.My.Resources.Resources.Screenshot_1
+        Me.PictureBox6.Location = New System.Drawing.Point(349, 93)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(119, 137)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 12
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = Global.Book.My.Resources.Resources.gg
+        Me.PictureBox5.Location = New System.Drawing.Point(595, 58)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(55, 23)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 11
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Book.My.Resources.Resources.btnguardar
+        Me.PictureBox4.Location = New System.Drawing.Point(287, 58)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(26, 23)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 9
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.Book.My.Resources.Resources.Screenshot_5
+        Me.PictureBox10.Location = New System.Drawing.Point(59, 248)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(226, 246)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 20
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.Book.My.Resources.Resources.Screenshot_4
+        Me.PictureBox9.Location = New System.Drawing.Point(242, 154)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(299, 56)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 17
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.Book.My.Resources.Resources.Screenshot_3
+        Me.PictureBox8.Location = New System.Drawing.Point(242, 82)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(299, 56)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 12
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Image = Global.Book.My.Resources.Resources.myhomework_icon
+        Me.PictureBox11.Location = New System.Drawing.Point(403, 54)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(88, 90)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 28
+        Me.PictureBox11.TabStop = False
         '
         'frmContenidos
         '
@@ -1482,44 +1644,49 @@ Partial Class frmContenidos
         Me.TabControl1.ResumeLayout(False)
         Me.TBinicio.ResumeLayout(False)
         Me.TBinicio.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TBguardar.ResumeLayout(False)
         Me.TBguardar.PerformLayout()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TBwordArt.ResumeLayout(False)
         Me.TBwordArt.PerformLayout()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TBhistoria.ResumeLayout(False)
         Me.TBhistoria.PerformLayout()
         Me.TBevaluacion.ResumeLayout(False)
         Me.TBevaluacion.PerformLayout()
-        Me.FlowLayoutPanel1.ResumeLayout(False)
-        Me.FlowLayoutPanel1.PerformLayout()
-        Me.FlowLayoutPanel2.ResumeLayout(False)
-        Me.FlowLayoutPanel2.PerformLayout()
-        Me.FlowLayoutPanel3.ResumeLayout(False)
-        Me.FlowLayoutPanel3.PerformLayout()
-        Me.FlowLayoutPanel4.ResumeLayout(False)
-        Me.FlowLayoutPanel4.PerformLayout()
-        Me.FlowLayoutPanel5.ResumeLayout(False)
-        Me.FlowLayoutPanel5.PerformLayout()
-        Me.FlowLayoutPanel6.ResumeLayout(False)
-        Me.FlowLayoutPanel6.PerformLayout()
-        Me.FlowLayoutPanel7.ResumeLayout(False)
-        Me.FlowLayoutPanel7.PerformLayout()
-        Me.FlowLayoutPanel8.ResumeLayout(False)
-        Me.FlowLayoutPanel8.PerformLayout()
-        Me.FlowLayoutPanel9.ResumeLayout(False)
-        Me.FlowLayoutPanel9.PerformLayout()
         Me.FlowLayoutPanel10.ResumeLayout(False)
         Me.FlowLayoutPanel10.PerformLayout()
+        Me.FlowLayoutPanel9.ResumeLayout(False)
+        Me.FlowLayoutPanel9.PerformLayout()
+        Me.FlowLayoutPanel8.ResumeLayout(False)
+        Me.FlowLayoutPanel8.PerformLayout()
+        Me.FlowLayoutPanel7.ResumeLayout(False)
+        Me.FlowLayoutPanel7.PerformLayout()
+        Me.FlowLayoutPanel6.ResumeLayout(False)
+        Me.FlowLayoutPanel6.PerformLayout()
+        Me.FlowLayoutPanel5.ResumeLayout(False)
+        Me.FlowLayoutPanel5.PerformLayout()
+        Me.FlowLayoutPanel4.ResumeLayout(False)
+        Me.FlowLayoutPanel4.PerformLayout()
+        Me.FlowLayoutPanel3.ResumeLayout(False)
+        Me.FlowLayoutPanel3.PerformLayout()
+        Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.FlowLayoutPanel2.PerformLayout()
+        Me.FlowLayoutPanel1.ResumeLayout(False)
+        Me.FlowLayoutPanel1.PerformLayout()
+        Me.TBeWordArt.ResumeLayout(False)
+        Me.TBeWordArt.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1529,7 +1696,7 @@ Partial Class frmContenidos
     Friend WithEvents TBwordArt As System.Windows.Forms.TabPage
     Friend WithEvents TBhistoria As System.Windows.Forms.TabPage
     Friend WithEvents TBevaluacion As System.Windows.Forms.TabPage
-    Friend WithEvents TBformas As System.Windows.Forms.TabPage
+    Friend WithEvents TBeWordArt As System.Windows.Forms.TabPage
     Friend WithEvents TBbordes As System.Windows.Forms.TabPage
     Friend WithEvents TBmarcadores As System.Windows.Forms.TabPage
     Friend WithEvents TBhipervinculos As System.Windows.Forms.TabPage
@@ -1647,4 +1814,18 @@ Partial Class frmContenidos
     Friend WithEvents Label59 As System.Windows.Forms.Label
     Friend WithEvents FlowLayoutPanel10 As System.Windows.Forms.FlowLayoutPanel
     Friend WithEvents FlowLayoutPanel9 As System.Windows.Forms.FlowLayoutPanel
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label63 As System.Windows.Forms.Label
+    Friend WithEvents Label62 As System.Windows.Forms.Label
+    Friend WithEvents Label61 As System.Windows.Forms.Label
+    Friend WithEvents Label60 As System.Windows.Forms.Label
+    Friend WithEvents Label65 As System.Windows.Forms.Label
+    Friend WithEvents Label64 As System.Windows.Forms.Label
+    Friend WithEvents Label66 As System.Windows.Forms.Label
+    Friend WithEvents Label67 As System.Windows.Forms.Label
+    Friend WithEvents Label68 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox11 As System.Windows.Forms.PictureBox
+    Friend WithEvents BtnSiguiente As System.Windows.Forms.Button
+    Friend WithEvents Label69 As System.Windows.Forms.Label
+    Friend WithEvents Label70 As System.Windows.Forms.Label
 End Class

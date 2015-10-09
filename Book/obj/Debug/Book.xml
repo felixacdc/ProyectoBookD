@@ -35,6 +35,10 @@ Book
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Book.My.Resources.Resources.myhomework_icon">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Book.My.Resources.Resources.Punto1">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
