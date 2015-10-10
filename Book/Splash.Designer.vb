@@ -181,9 +181,9 @@ Partial Class Splash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Gray
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(468, 260)
+        Me.BackColor = System.Drawing.Color.DimGray
+        Me.BackgroundImage = Global.Book.My.Resources.Resources.portadaMiniatura
+        Me.ClientSize = New System.Drawing.Size(466, 258)
         Me.Controls.Add(Me.lblClose)
         Me.Controls.Add(Me.lblLoading)
         Me.Controls.Add(Me.PictureBox7)
@@ -200,7 +200,7 @@ Partial Class Splash
         Me.Name = "Splash"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
-        Me.TransparencyKey = System.Drawing.Color.Gray
+        Me.TransparencyKey = System.Drawing.Color.DimGray
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()

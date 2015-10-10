@@ -16,8 +16,8 @@
         Else
             Timer1.Enabled = False
             Me.Hide()
-            Dim rg As New frmContenidos()
-            rg.Show()
+            Dim lg As New Registro()
+            lg.Show()
         End If
     End Sub
 

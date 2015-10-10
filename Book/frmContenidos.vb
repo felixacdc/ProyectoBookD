@@ -200,5 +200,4 @@
             MsgBox("Contraseña equivocada", MsgBoxStyle.Information, "Validacion")
         End If
     End Sub
-
 End Class
