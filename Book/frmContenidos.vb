@@ -1,5 +1,9 @@
 ﻿Public Class frmContenidos
 
+    Private Sub frmContenidos_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        Registro.Close()
+    End Sub
+
     Private Sub limpiar()
         RBp101.ForeColor = Color.Black
         RBp102.ForeColor = Color.Black
@@ -172,10 +176,6 @@
 
             MsgBox("Su punteo es: " & Punteo, MsgBoxStyle.Information, "Puntuacion")
         End If
-    End Sub
-
-    Private Sub frmContenidos_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-        Splash.Close()
     End Sub
 
     Private Sub BtnCalificar_Click(sender As Object, e As EventArgs) Handles BtnCalificar.Click
