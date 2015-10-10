@@ -183,15 +183,19 @@
     End Sub
 
     Private Sub BtnSiguiente_Click(sender As Object, e As EventArgs) Handles BtnSiguiente.Click
-        Dim contra As String
-        Dim punteo As Double
+        Dim punteo As Object
+        Dim contra As New frmInputBox()
 
 
-        contra = InputBox("Ingrese su clave de catedratico")
+        contra.ShowDialog()
 
-        If contra = "master" Then
+        If contra.obtenerClave = "master" Then
             punteo = InputBox("Ingrese la nota del alumno")
-            MsgBox("La nota del alumno es: " & punteo & " puede pasar al siguiente ejercicio")
+            If IsNumeric(punteo) Then
+                MsgBox("La nota del alumno es: " & punteo & " puede pasar al siguiente ejercicio")
+            Else
+                MsgBox("Ingrese un numero para guardar la nota")
+            End If
         Else
             MsgBox("Contraseña equivocada", MsgBoxStyle.Information, "Validacion")
         End If
