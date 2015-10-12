@@ -22,6 +22,7 @@ Partial Class Desktop
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Desktop))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
         Me.CursosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,6 +32,7 @@ Partial Class Desktop
         Me.MicrosoftAccessToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AbrirProgramasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AbrirMicrosoftWordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
         Me.MenuStrip2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -96,6 +98,12 @@ Partial Class Desktop
         Me.AbrirMicrosoftWordToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
         Me.AbrirMicrosoftWordToolStripMenuItem.Text = "Abrir Microsoft Word"
         '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = Nothing
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'Desktop
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -107,10 +115,11 @@ Partial Class Desktop
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.MenuStrip2)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Desktop"
-        Me.Text = "Desktop"
+        Me.Text = "Project Book"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip2.ResumeLayout(False)
         Me.MenuStrip2.PerformLayout()
@@ -127,4 +136,5 @@ Partial Class Desktop
     Friend WithEvents MicrosoftAccessToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AbrirProgramasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AbrirMicrosoftWordToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class
