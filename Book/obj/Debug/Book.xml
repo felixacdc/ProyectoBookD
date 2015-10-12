@@ -15,6 +15,10 @@ Book
   Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
+</member><member name="P:Book.My.Resources.Resources.background">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Book.My.Resources.Resources.btnguardar">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -35,6 +39,10 @@ Book
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Book.My.Resources.Resources.miniWord">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Book.My.Resources.Resources.myhomework_icon">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -43,11 +51,11 @@ Book
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Book.My.Resources.Resources.Punto1">
+</member><member name="P:Book.My.Resources.Resources.punto1">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Book.My.Resources.Resources.Punto2">
+</member><member name="P:Book.My.Resources.Resources.punto2">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

@@ -73,11 +73,22 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Desktop.Designer.vb">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Desktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmInputBox.Designer.vb">
       <DependentUpon>frmInputBox.vb</DependentUpon>
     </Compile>
     <Compile Include="frmInputBox.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Registro.Designer.vb">
       <DependentUpon>Registro.vb</DependentUpon>
@@ -91,21 +102,16 @@
     <Compile Include="Splash.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmContenidos.Designer.vb">
-      <DependentUpon>frmContenidos.vb</DependentUpon>
+    <Compile Include="Word.Designer.vb">
+      <DependentUpon>Word.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmContenidos.vb">
+    <Compile Include="Word.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -114,17 +120,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmContenidos.resx">
-      <DependentUpon>frmContenidos.vb</DependentUpon>
+    <EmbeddedResource Include="Desktop.resx">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Word.resx">
+      <DependentUpon>Word.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInputBox.resx">
       <DependentUpon>frmInputBox.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.vb</DependentUpon>
@@ -147,12 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Splash.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Punto1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Punto2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\inicio.png" />
@@ -198,6 +201,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\portadaMiniatura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miniWord.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,4 @@
-﻿Public Class frmContenidos
+﻿Public Class Word
 
     Private Sub frmContenidos_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         Registro.Close()

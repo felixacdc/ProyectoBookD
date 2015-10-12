@@ -9,8 +9,8 @@
     Private Sub btnRegistro_Click(sender As Object, e As EventArgs) Handles btnRegistro.Click
         If txtUsuario.Text = "ProyectoBook" And txtPassword.Text = "Book2015" And txtSerial.Text = "A1B2C3" Then
             Me.Hide()
-            Dim rg As New frmContenidos()
-            rg.Show()
+            Dim dsk As New Desktop()
+            dsk.Show()
         Else
             If txtUsuario.Text = "" And txtPassword.Text = "" And txtSerial.Text = "" Then
                 MsgBox("Usuario o Password estan vacios", MsgBoxStyle.Critical, "Error")
