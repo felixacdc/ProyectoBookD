@@ -11,7 +11,7 @@
         w.Show()  ' Mostramos el Formulario
     End Sub
 
-    Private Sub AbrirMicrosoftWordToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub AbrirMicrosoftWordToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles AbrirMicrosoftWordToolStripMenuItem.Click
         GetAttr("C:\Program Files\Microsoft Office\Office15\WINWORD.exe")
         Shell("C:\Program Files\Microsoft Office\Office15\WINWORD.exe")
     End Sub
